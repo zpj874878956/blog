@@ -1,0 +1,9 @@
+node_modules
+package-lock.json
+report.*
+yarn.lock
+yar-error.log
+.vscode
+docs/.vuepress/dist
+urls.txt
+.DS_Store
