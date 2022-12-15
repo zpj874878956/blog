@@ -78,7 +78,7 @@ module.exports = {
   },
   blogger: {
     // 博主信息，显示在首页侧边栏
-    avatar: '/img/dengxia.gif',
+    avatar: '/img/xiyang.jpg',
     name: 'zpj',
     slogan: '好好学习，天天向上',
   },
