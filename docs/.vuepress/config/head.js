@@ -3,7 +3,7 @@ module.exports = [
   // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
   ['link', { rel: 'icon', href: '/img/favicon.ico' }], //favicons，资源放在public文件夹
   ['meta',{name: 'keywords',content: '分享生活,分享技术,zpj,jenkins,ansible,k8s,监控'}],
-  ['meta', { name: 'baidu-site-verification', content: 'code-LTKHwOecxI' }], // 百度统计的站长验证
+  // ['meta', { name: 'baidu-site-verification', content: 'code-LTKHwOecxI' }], // 百度统计的站长验证
   ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
   ['meta', {name: 'referrer', content: 'no-referrer-when-downgrade'}],
   ['link', { rel: 'stylesheet', href: 'https://at.alicdn.com/t/font_3114978_qe0b39no76.css' }], // 阿里云在线矢量库,字数和访客数图标使用

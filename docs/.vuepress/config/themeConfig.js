@@ -8,7 +8,7 @@ module.exports = {
   nav, // 顶部导航栏
   sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
   logo: '/img/logo.png', // 导航栏logo
-  repo: 'eryajf/eryajf.github.io', // 导航栏右侧生成Github链接
+  repo: 'zpj874878956', // 导航栏右侧生成Github链接
   searchMaxSuggestions: 10, // 搜索结果显示最大数
   lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
   editLinks: false, // 关闭编辑按钮,此编辑无实际意义
@@ -57,7 +57,7 @@ module.exports = {
 
   // 博客站点信息（首页）
   blogInfo: {
-    blogCreate: '2018-03-23', // 博客创建时间
+    blogCreate: '2019-09-20', // 博客创建时间
     indexView: true,  // 开启首页的访问量和排名统计，默认 true（开启）
     pageView: true,  // 开启文章页的浏览量统计，默认 true（开启）
     mdFileCountType: 'archives',  // 开启文档数。1. archives 获取归档的文档数（默认）。2. 数组 readFileList(['xx']) 排除 xx 目录（可多个，可不传参数），获取其他目录的文档数。提示：readFileList() 获取 docs 下所有的 md 文档（除了 `.vuepress` 和 `@pages` 目录下的文档）
@@ -74,13 +74,13 @@ module.exports = {
   author: {
     // 文章默认的作者信息，可在md文件中单独配置此信息 String | {name: String, link: String}
     name: 'zpj', // 必需
-    link: 'https://github.com/eryajf', // 可选的
+    link: 'https://github.com/zpj874878956', // 可选的
   },
   blogger: {
     // 博主信息，显示在首页侧边栏
     avatar: '/img/dengxia.gif',
     name: 'zpj',
-    slogan: '行者常至，为者常成',
+    slogan: '好好学习，天天向上',
   },
   social: {
     // 社交图标，显示于博主信息栏和页脚栏
@@ -89,17 +89,17 @@ module.exports = {
       {
         iconClass: 'icon-github',
         title: 'GitHub',
-        link: 'https://github.com/eryajf',
+        link: 'https://github.com/zpj874878956',
       },
       {
         iconClass: 'icon-youjian',
         title: '发邮件',
-        link: 'mailto:eryajf@163.com',
+        link: '874878956@qq.com',
       },
       {
         iconClass: 'icon-rss',
         title: '订阅',
-        link: 'https://wiki.eryajf.net/rss.xml',
+        link: 'https://blog.zzppjj.top/rss.xml',
       },
     ],
   },

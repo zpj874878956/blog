@@ -9,9 +9,9 @@ module.exports = {
         font-weight: bold;
         margin: 0 0 8px 0;
       ">公众号</p>
-      <img src="http://t.eryajf.net/imgs/2022/02/be5b6c6fa601a9d1.png"  style="width:100%;" />
+      <img src="https://raw.githubusercontent.com/zpj874878956/images/main/qrcode_for_gh_06dde8496ccd_344.jpg"  style="width:100%;" />
       <p>
-      运维艺术，扫码或者搜索关注
+      章工运维，扫码或者搜索关注
       </p>
       </div>`,
     // `<div style="padding: 0.95rem">

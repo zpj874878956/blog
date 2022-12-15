@@ -1,14 +1,14 @@
 // set your global feed options - override in page frontmatter `feed`
 const feed_options = {
-  canonical_base: 'https://wiki.eryajf.net',
+  canonical_base: 'https://blog.zzppjj.top',
   count: 5000,
 };
 
 const autometa_options = {
   site: {
-    name: 'Eryajf',
+    name: 'zpj',
   },
-  canonical_base: 'https://wiki.eryajf.net',
+  canonical_base: 'https://blog.zzppjj.top',
 };
 
 // 插件配置
