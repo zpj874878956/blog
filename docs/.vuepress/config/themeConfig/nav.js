@@ -3,48 +3,31 @@ module.exports = [
   { text: '首页', link: '/' },
   { text: '运维',link: '/ops/',
     items: [
-      // { text: 'Nginx', link: '/nginx/'},
-      // { text: 'Php', link: '/php/'},
-      // { text: 'Zabbix', link: '/zabbix/'},
-      // { text: 'Prometheus', link: '/prometheus/'},
-      // { text: 'Grafana', link: '/grafana/'},
-      // { text: 'CentOS', link: '/centos/'},
-      // { text: 'Docker', link: '/docker/'},
-      // { text: 'Rancker', link: '/rancher/'},
-      { text: 'Ansible', link: '/ansible/'},
-      // { text: 'Ldap', link: '/OpenLdap/'},
-      // { text: 'Gitlab', link: '/gitlab/'},
-      // { text: 'GitHub', link: '/github/'},
-      // { text: 'RabbitMQ', link: '/RabbitMQ/'},
-      // { text: 'Kafka', link: '/kafka/'},
-      // { text: 'MySql', link: '/mysql/'},
-      // { text: 'MongoDB', link: '/MongoDB/'},
-      // { text: 'OpenVPN', link: '/OpenVPN/'},
-      // { text: 'KVM', link: '/kvm/'},
-      // { text: 'VMware', link: '/VMware/'},
-      // { text: 'Other', link: '/other/'},
+      { text: 'elk', link: '/elk/'},
+      { text: 'k8s', link: '/k8s/'},
+      { text: 'ansible', link: '/ansible/'},
+      { text: 'Jenkins', link: '/jenkins/'},
     ]
   },
   { text: '专题',link: '/topic/',
     items: [
-      { text: 'ELK', link: '/elk/'},
-      { text: 'K8S', link: '/k8s/'},
-      { text: 'ansible', link: '/pages/12c5da01/'},
+      { text: 'elk', link: '/elk/'},
+      { text: 'k8s', link: '/k8s/'},
+      { text: 'ansible', link: '/ansible/'},
       { text: 'Jenkins', link: '/jenkins/'},
     ]
   },
   { text: '生活',link: '/life/',
     items: [
-      { text: '随笔', link: '/sxbn/'},
-      { text: '工具', link: '/jrwy/'},
+      { text: '随笔', link: '/suibi/'},
+      { text: '面试', link: '/mianshi/'},
+      { text: '工具', link: '/gongju/'},
     ]
   },
   { text: '编程',link: '/code/',
     items: [
       { text: 'Shell', link: '/shell/'},
-      { text: 'python', link: '/front-code/'},
-      { text: 'Vue学习笔记', link: '/vue-learn/'},
-      { text: 'Go学习笔记', link: '/go-learn/'},
+      { text: 'python', link: '/python/'},
     ]
   },
   { text: '关于', link: '/about/' },
@@ -70,26 +53,26 @@ module.exports = [
       {
         items: [
           { text: '开往', link: 'https://travellings.link' },
-          { text: '导航', link: '/nav/' },
+          // { text: '导航', link: '/nav/' },
           { text: '打赏', link: '/reward/' },
         ]
       },
-      {
-        items: [
-          { text: 'json2go', link: 'http://public.eryajf.net/json2go' },
-          { text: '微信MD编辑', link: 'http://public.eryajf.net/mdnice' },
-          { text: '国内镜像', link: 'http://public.eryajf.net/mirror' },
-          { text: '出口IP查询', link: 'http://ip.eryajf.net' },
-          { text: '代码高亮工具', link: 'http://public.eryajf.net/highlight/' },
-        ]
-      },
-     {
-        items: [
-          { text: 'ldapdoc', link: 'http://ldapdoc.eryajf.net' },
-          { text: 'HowToStartOpenSource', link: 'https://eryajf.github.io/HowToStartOpenSource' },
-          { text: 'vdoing-template', link: 'https://eryajf.github.io/vdoing-template/' },
-        ]
-      }
+      // {
+      //   items: [
+      //     { text: 'json2go', link: 'http://public.eryajf.net/json2go' },
+      //     { text: '微信MD编辑', link: 'http://public.eryajf.net/mdnice' },
+      //     { text: '国内镜像', link: 'http://public.eryajf.net/mirror' },
+      //     { text: '出口IP查询', link: 'http://ip.eryajf.net' },
+      //     { text: '代码高亮工具', link: 'http://public.eryajf.net/highlight/' },
+      //   ]
+      // },
+    //  {
+    //     items: [
+    //       { text: 'ldapdoc', link: 'http://ldapdoc.eryajf.net' },
+    //       { text: 'HowToStartOpenSource', link: 'https://eryajf.github.io/HowToStartOpenSource' },
+    //       { text: 'vdoing-template', link: 'https://eryajf.github.io/vdoing-template/' },
+    //     ]
+    //   }
     ],
   },
   // { text: '开往', link: 'https://travellings.link' },
