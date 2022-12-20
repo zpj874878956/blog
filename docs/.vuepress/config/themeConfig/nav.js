@@ -15,6 +15,7 @@ module.exports = [
       { text: 'k8s', link: '/k8s/'},
       { text: 'ansible', link: '/ansible/'},
       { text: 'Jenkins', link: '/jenkins/'},
+      { text: 'zabbix', link: '/zabbix/'},
     ]
   },
   { text: '生活',link: '/life/',
