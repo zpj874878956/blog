@@ -1,0 +1,52 @@
+---
+title: sed命令在文本每行,行尾或行首添加字符
+date: 2022-12-21 20:56:09
+permalink: /pages/4baba0/
+categories:
+  - 运维
+  - linux
+  - sed、awk、grep、find四剑客
+tags:
+  - 
+---
+
+用sed命令在行首或行尾添加字符的命令有以下几种：  
+假设处理的文本为test.file
+
+![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9waWMwMDIuY25ibG9ncy5jb20vaW1hZ2VzLzIwMTEvMzIyODMzLzIwMTEwODE5MDk0NDQwMTMucG5n?x-oss-process=image/format,png)
+
+**在每行的头添加字符，比如"HEAD"，命令如下：**
+
+```shell
+sed "s/^/HEAD&/g" test.file
+```
+
+**在每行的行尾添加字符，比如“TAIL”，命令如下：**
+
+```shell
+sed "s/$/&TAIL/g" test.file
+```
+
+运行结果如下图：
+
+![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9waWMwMDIuY25ibG9ncy5jb20vaW1hZ2VzLzIwMTEvMzIyODMzLzIwMTEwODE5MDk0NzIxNjEucG5n?x-oss-process=image/format,png)
+
+几点说明：  
+
+1. "^"代表行首，"$"代表行尾
+
+2. 's/$/&TAIL/g'中的字符g代表每行出现的字符全部替换，如果想在特定字符处添加，g就有用了，否则只会替换每行第一个，而不继续往后找了
+
+例：
+
+![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9waWMwMDIuY25ibG9ncy5jb20vaW1hZ2VzLzIwMTEvMzIyODMzLzIwMTEwODE5MDk1MjQ5NzMucG5n?x-oss-process=image/format,png)
+
+3. 如果想导出文件，在命令末尾加"> outfile_name"；如果想在原文件上更改，添加选项"-i"，如（这里的-i，可以理解为其他命令执行后的结果重定向到原文件，所以-n p等参数会影响-i的效果
+
+![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9waWMwMDIuY25ibG9ncy5jb20vaW1hZ2VzLzIwMTEvMzIyODMzLzIwMTEwODE5MDk1NjM0NTEucG5n?x-oss-process=image/format,png)
+
+4. 也可以把两条命令和在一起，在test.file的每一行的行头和行尾分别添加字符"HEAD"、“TAIL”，命令：
+
+```shell
+sed "/./{s/^/HEAD&/;s/$/&TAIL/}" test.file
+```
