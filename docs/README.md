@@ -1,7 +1,7 @@
 ---
 home: true
 # heroImage: /img/web.png
-heroText: zzppjj
+heroText: 章工运维
 tagline: 努力、拼搏
 # actionText: 立刻进入 →
 # actionLink: /ops/
