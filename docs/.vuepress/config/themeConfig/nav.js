@@ -53,7 +53,7 @@ module.exports = [
       // },
       {
         items: [
-          { text: '开往', link: 'https://travellings.link' },
+          // { text: '开往', link: 'https://travellings.link' },
           // { text: '导航', link: '/nav/' },
           { text: '打赏', link: '/reward/' },
         ]
@@ -76,5 +76,5 @@ module.exports = [
     //   }
     ],
   },
-  // { text: '开往', link: 'https://travellings.link' },
+  { text: '开往', link: 'https://travellings.link' },
 ]
