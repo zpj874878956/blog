@@ -76,5 +76,5 @@ module.exports = [
     //   }
     ],
   },
-  { text: '开往', link: 'https://travellings.link' },
+  { text: '开往', link: 'https://www.travellings.cn/go.html' },
 ]
