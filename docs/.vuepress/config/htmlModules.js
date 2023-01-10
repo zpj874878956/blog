@@ -9,7 +9,7 @@ module.exports = {
         font-weight: bold;
         margin: 0 0 8px 0;
       ">公众号</p>
-      <img src="https://raw.githubusercontent.com/zpj874878956/images/main/qrcode_for_gh_06dde8496ccd_344.jpg"  style="width:100%;" />
+      <img src="/img/qrcode_for_gh_06dde8496ccd_344.jpg"  style="width:100%;" />
       <p>
       章工运维，扫码或者搜索关注
       </p>

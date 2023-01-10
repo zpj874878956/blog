@@ -86,7 +86,7 @@ module.exports = [
   'vuepress-plugin-mermaidjs',
   [
     'sitemap', {
-      hostname: 'https://wiki.eryajf.net',
+      hostname: 'https://blog.zzppjj.top',
       exclude: ["/404.html"],
     },
   ],
