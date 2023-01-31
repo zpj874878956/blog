@@ -107,19 +107,19 @@ module.exports = [
   //   },
   // ],
 
-  // [
-  //   'vuepress-plugin-vdoing-comment', // 评论
-  //     {
-  //       choosen: 'artalk',
-  //       options: {
-  //           server: 'https://comment.eryajf.net',
-  //           site: 'zpj',
-  //           disableEmotion: false,
-  //           disablePicture: true,
-  //           disablePreview: false
-  //       }
-  //     }
-  // ],
+  [
+    'vuepress-plugin-vdoing-comment', // 评论
+      {
+        choosen: 'artalk',
+        options: {
+            server: 'https://artalk.zzppjj.top',
+            site: 'zzppjj',
+            disableEmotion: false,
+            disablePicture: false,
+            disablePreview: false
+        }
+      }
+  ],
 
   // 站点地图
   // 'robots', {
