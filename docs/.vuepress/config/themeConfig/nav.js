@@ -41,9 +41,9 @@ module.exports = [
     ],
   },
   {
-    text: '页面',
-    link: '/nav/',
-    items: [
+    // text: '页面',
+    // link: '/nav/',
+    // items: [
       // {
       //   items: [
       //     { text: '分类', link: '/categories/' },
@@ -51,13 +51,13 @@ module.exports = [
       //     { text: '归档', link: '/archives/' },
       //   ],
       // },
-      {
-        items: [
-          // { text: '开往', link: 'https://travellings.link' },
-          // { text: '导航', link: '/nav/' },
-          { text: '打赏', link: '/reward/' },
-        ]
-      },
+      // {
+      //   items: [
+      //     // { text: '开往', link: 'https://travellings.link' },
+      //     // { text: '导航', link: '/nav/' },
+      //     { text: '打赏', link: '/reward/' },
+      //   ]
+      // },
       // {
       //   items: [
       //     { text: 'json2go', link: 'http://public.eryajf.net/json2go' },
@@ -74,7 +74,8 @@ module.exports = [
     //       { text: 'vdoing-template', link: 'https://eryajf.github.io/vdoing-template/' },
     //     ]
     //   }
-    ],
+    // ],
+  text: '打赏', link: '/reward/'
   },
   { text: '开往', link: 'https://www.travellings.cn/go.html' },
 ]
