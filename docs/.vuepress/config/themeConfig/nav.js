@@ -3,10 +3,18 @@ module.exports = [
   { text: '首页', link: '/' },
   { text: '运维',link: '/ops/',
     items: [
-      { text: 'elk', link: '/elk/'},
-      { text: 'k8s', link: '/k8s/'},
-      { text: 'ansible', link: '/ansible/'},
-      { text: 'Jenkins', link: '/jenkins/'},
+      { text: 'linux', link: '/linux/'},
+      { text: 'windows', link: '/windows/'},
+      { text: '中间件', link: '/middleware/'},
+      { text: '监控', link: '/monitor/'},
+      { text: '网络', link: '/network/'},
+      { text: '存储', link: '/storage/'},
+      { text: '安全', link: '/safety/'},
+      { text: '防火墙', link: '/firewalld/'},
+      { text: '数据库', link: '/db/'},
+      { text: 'docker', link: '/docker/'},
+      { text: '运维工具', link: '/tool/'},
+      { text: 'other', link: '/other/'},
     ]
   },
   { text: '专题',link: '/topic/',
@@ -15,7 +23,6 @@ module.exports = [
       { text: 'k8s', link: '/k8s/'},
       { text: 'ansible', link: '/ansible/'},
       { text: 'Jenkins', link: '/jenkins/'},
-      { text: 'zabbix', link: '/zabbix/'},
     ]
   },
   { text: '生活',link: '/life/',
@@ -40,7 +47,7 @@ module.exports = [
       { text: '归档', link: '/archives/' },
     ],
   },
-  {
+  // {
     // text: '页面',
     // link: '/nav/',
     // items: [
@@ -75,7 +82,7 @@ module.exports = [
     //     ]
     //   }
     // ],
-  text: '打赏', link: '/reward/'
-  },
+  // text: '打赏', link: '/reward/'
+  // },
   { text: '开往', link: 'https://www.travellings.cn/go.html' },
 ]

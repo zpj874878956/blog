@@ -32,13 +32,13 @@ module.exports = {
     // </div>`,
   // 利用广告模块儿,添加访问地球🌎
   // homeSidebarB: `<div style="width:100%;height:122px;color:#fff;background: #eee;"><a href="https://www.revolvermaps.com/livestats/5srkcv15atq/"><img src="//rf.revolvermaps.com/h/m/a/0/ff0000/128/10/5srkcv15atq.png" width="256" height="128" alt="Map" style="border:0;"></a></div>`,
-//   pageB: `<div class="donation">
-//   <button>打赏</button>
-//   <div class="main">
-//       <div class="pic">
-//           <img src="http://pic.zzppjj.top/LightPicture/2023/02/fcfcc131a66acd87.jpg" alt="微信">
-//           <img src="http://pic.zzppjj.top/LightPicture/2023/02/76de653983645385.jpg" alt="支付宝">
-//       </div>
-//   </div>
-// </div>`,
+  pageB: `<div class="donation">
+  <button>打赏</button>
+  <div class="main">
+      <div class="pic">
+          <img src="http://pic.zzppjj.top/LightPicture/2023/02/cebf13bbcea9264d.jpg" alt="微信">
+          <img src="http://pic.zzppjj.top/LightPicture/2023/02/d98d15501306c7c4.jpg" alt="支付宝">
+      </div>
+  </div>
+</div>`,
 }

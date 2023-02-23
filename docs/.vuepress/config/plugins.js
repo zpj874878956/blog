@@ -78,7 +78,8 @@ module.exports = [
   [
     'vuepress-plugin-baidu-tongji',
     {
-      hm: 'f8fd5c4e21ca384b4785396a87bcc468',
+      // hm: 'f8fd5c4e21ca384b4785396a87bcc468',
+      hm: 'a2eb5aefa7df511c4cda2ae0aecea086',
     },
   ],
 
