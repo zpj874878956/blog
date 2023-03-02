@@ -12,6 +12,7 @@ module.exports = [
       { text: '安全', link: '/safety/'},
       { text: '防火墙', link: '/firewalld/'},
       { text: '数据库', link: '/db/'},
+      { text: '系统', link: '/sys/'},
       { text: 'docker', link: '/docker/'},
       { text: '运维工具', link: '/tool/'},
       { text: 'other', link: '/other/'},
@@ -84,5 +85,6 @@ module.exports = [
     // ],
   // text: '打赏', link: '/reward/'
   // },
+  { text: '图床', link: 'https://pic.zzppjj.top' },
   { text: '开往', link: 'https://www.travellings.cn/go.html' },
 ]
