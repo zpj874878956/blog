@@ -85,6 +85,18 @@ module.exports = [
     // ],
   // text: '打赏', link: '/reward/'
   // },
-  { text: '图床', link: 'https://pic.zzppjj.top' },
+  {
+    text: '页面',
+    link: '/nav/',
+    items: [
+      {
+        items: [
+          { text: 'chatgpt', link: 'https://aichat.zzppjj.top' },
+          { text: '图床', link: 'https://pic.zzppjj.top' },
+          { text: '评论', link: 'https://artalk.zzppjj.top' },
+        ],
+      },
+    ],
+  },  
   { text: '开往', link: 'https://www.travellings.cn/go.html' },
 ]
