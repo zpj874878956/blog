@@ -91,7 +91,6 @@ module.exports = [
     items: [
       {
         items: [
-          { text: 'chatgpt', link: 'https://aichat.zzppjj.top' },
           { text: '图床', link: 'https://pic.zzppjj.top' },
           { text: '评论', link: 'https://artalk.zzppjj.top' },
         ],
