@@ -94,7 +94,7 @@ module.exports = {
       {
         iconClass: 'icon-youjian',
         title: '发邮件',
-        link: '874878956@qq.com',
+        link: 'mailto:874878956@qq.com',
       },
       {
         iconClass: 'icon-rss',
