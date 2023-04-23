@@ -34,3 +34,6 @@ bannerBg: http://pic.zzppjj.top/LightPicture/2023/02/7c6d3b8425f739ab.jpg # auto
 :::
 
 ::: center
+<ClientOnly>
+  <WebInfo/>
+</ClientOnly>
