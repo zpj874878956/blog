@@ -21,7 +21,7 @@ module.exports = [
   { text: '专题',link: '/topic/',
     items: [
       { text: 'elk', link: '/elk/'},
-      { text: 'k8s', link: '/k8s/'},
+      { text: 'K8S', link: '/k8s/'},
       { text: 'ansible', link: '/ansible/'},
       { text: 'Jenkins', link: '/jenkins/'},
     ]
