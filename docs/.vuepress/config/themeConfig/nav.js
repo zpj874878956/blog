@@ -31,6 +31,7 @@ module.exports = [
       { text: '随笔', link: '/suibi/'},
       { text: '面试', link: '/mianshi/'},
       { text: '工具', link: '/gongju/'},
+      { text: '收藏夹', link: '/favorites/'},
     ]
   },
   { text: '编程',link: '/code/',
