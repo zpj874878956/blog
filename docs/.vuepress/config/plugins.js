@@ -1,6 +1,6 @@
 // set your global feed options - override in page frontmatter `feed`
 const feed_options = {
-  canonical_base: 'https://www.zzppjj.top',
+  canonical_base: 'https://blog.zzppjj.top',
   count: 5000,
 };
 
@@ -8,7 +8,7 @@ const autometa_options = {
   site: {
     name: 'zpj',
   },
-  canonical_base: 'https://www.zzppjj.top',
+  canonical_base: 'https://blog.zzppjj.top',
 };
 
 // 插件配置
@@ -87,7 +87,7 @@ module.exports = [
   'vuepress-plugin-mermaidjs',
   [
     'sitemap', {
-      hostname: 'https://www.zzppjj.top',
+      hostname: 'https://blog.zzppjj.top',
       exclude: ["/404.html"],
     },
   ],

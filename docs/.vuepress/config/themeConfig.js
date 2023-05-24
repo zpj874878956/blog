@@ -99,7 +99,7 @@ module.exports = {
       {
         iconClass: 'icon-rss',
         title: '订阅',
-        link: 'https://www.zzppjj.top/rss.xml',
+        link: 'https://blog.zzppjj.top/rss.xml',
       },
     ],
   },
