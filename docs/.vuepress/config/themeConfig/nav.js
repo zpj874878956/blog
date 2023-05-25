@@ -92,8 +92,10 @@ module.exports = [
     items: [
       {
         items: [
+          { text: '首页', link: 'https://www.zzppjj.top' },
           { text: '图床', link: 'https://pic.zzppjj.top' },
           { text: '评论', link: 'https://artalk.zzppjj.top' },
+          { text: '下载站点', link: 'https://www.zzppjj.top/download/light/' },
         ],
       },
     ],
