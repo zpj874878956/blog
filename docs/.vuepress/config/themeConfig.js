@@ -80,7 +80,7 @@ module.exports = {
     // 博主信息，显示在首页侧边栏
     avatar: 'http://pic.zzppjj.top/LightPicture/2023/02/c7ac9de8fb6cfb17.jpg',
     name: '章工运维',
-    slogan: '好好学习，天天向上',
+    slogan: '业精于勤，荒于嬉',
   },
   social: {
     // 社交图标，显示于博主信息栏和页脚栏

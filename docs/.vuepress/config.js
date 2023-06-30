@@ -7,7 +7,7 @@ module.exports = {
   // theme: require.resolve('../../theme-vdoing'), // 使用本地主题
 
   title: "章工运维",
-  description: '好好学习，天天向上',
+  description: '业精于勤，荒于嬉',
   base: '/', // 格式：'/<仓库名>/'， 默认'/'
   markdown: {
     lineNumbers: true, // 代码行号
