@@ -115,9 +115,9 @@ module.exports = [
         options: {
             server: 'https://artalk.zzppjj.top',
             site: 'zzppjj',
-            disableEmotion: false,
-            disablePicture: false,
-            disablePreview: false
+            //disableEmotion: false,
+            //disablePicture: false,
+            //disablePreview: false
         }
       }
   ],
