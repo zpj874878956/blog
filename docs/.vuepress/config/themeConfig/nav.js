@@ -24,7 +24,7 @@ module.exports = [
       { text: 'K8S', link: '/k8s/'},
       { text: 'ansible', link: '/ansible/'},
       { text: 'Jenkins', link: '/jenkins/'},
-      { text: 'GitLabCI_CD', link: '/GitLabCI_CD/'},
+      { text: 'GitLabCI_CD', link: '/gitlabci/'},
     ]
   },
   { text: '生活',link: '/life/',
