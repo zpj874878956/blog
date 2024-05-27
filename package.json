@@ -33,7 +33,7 @@
     "yamljs": "^0.3.0"
   },
   "dependencies": {
-    "artalk": "^2.7.2",
+    "artalk": "^2.8.6",
     "busuanzi.pure.js": "^1.0.3",
     "leancloud-storage": "^4.11.1",
     "vuepress-plugin-reading-progress": "^1.0.10",
