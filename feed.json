@@ -1,0 +1,131 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "章工运维",
+    "home_page_url": "https://blog.zzppjj.top",
+    "feed_url": "https://blog.zzppjj.top/feed.json",
+    "description": "业精于勤，荒于嬉",
+    "items": [
+        {
+            "id": "https://blog.zzppjj.top/pages/c7f1bc/",
+            "url": "https://blog.zzppjj.top/pages/c7f1bc/",
+            "title": "rsync服务实现推送，拉取",
+            "summary": "Logrotate入门了解及生产实践",
+            "image": "http://s3.51cto.com/wyfs02/M02/8A/01/wKioL1gkBdaDE-dQAAAE5R3eKYo767.png",
+            "date_modified": "2022-12-09T20:51:06.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/98cac7/",
+            "url": "https://blog.zzppjj.top/pages/98cac7/",
+            "title": "rsync用法及参数详解",
+            "summary": "Logrotate入门了解及生产实践",
+            "date_modified": "2022-12-09T20:51:06.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/4baba0/",
+            "url": "https://blog.zzppjj.top/pages/4baba0/",
+            "title": "sed命令在文本每行,行尾或行首添加字符",
+            "summary": "Logrotate入门了解及生产实践",
+            "image": "https://imgconvert.csdnimg.cn/aHR0cHM6Ly9waWMwMDIuY25ibG9ncy5jb20vaW1hZ2VzLzIwMTEvMzIyODMzLzIwMTEwODE5MDk0NDQwMTMucG5n?x-oss-process=image/format,png",
+            "date_modified": "2022-12-21T20:56:09.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/78c801/",
+            "url": "https://blog.zzppjj.top/pages/78c801/",
+            "title": "centos7搭建dns,bind配置",
+            "summary": "Logrotate入门了解及生产实践",
+            "image": "http://pic.zzppjj.top/LightPicture/2023/01/c61083c823f2ed94.png",
+            "date_modified": "2022-12-15T19:18:37.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/5f261c/",
+            "url": "https://blog.zzppjj.top/pages/5f261c/",
+            "title": "LVM管理",
+            "image": "http://pic.zzppjj.top/LightPicture/2023/01/5a41ef21aac7ec6c.jpg",
+            "date_modified": "2022-12-15T17:38:10.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/c17655/",
+            "url": "https://blog.zzppjj.top/pages/c17655/",
+            "title": "linux修改网卡为eth0的两种方法",
+            "summary": "sudo权限规划",
+            "image": "https://img-blog.csdnimg.cn/20210719151032530.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MjUxNjkyMg==,size_16,color_FFFFFF,t_70",
+            "date_modified": "2022-12-21T14:34:00.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/0bac05/",
+            "url": "https://blog.zzppjj.top/pages/0bac05/",
+            "title": "sudo权限规划",
+            "summary": "sudo权限规划",
+            "date_modified": "2022-12-15T18:49:07.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/a8c469/",
+            "url": "https://blog.zzppjj.top/pages/a8c469/",
+            "title": "Logrotate入门了解及生产实践",
+            "summary": "Logrotate入门了解及生产实践",
+            "date_modified": "2023-01-11T15:19:54.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/50263a/",
+            "url": "https://blog.zzppjj.top/pages/50263a/",
+            "title": "linux中用dd命令来测试硬盘读写速度",
+            "summary": "linux中用dd命令来测试硬盘读写速度",
+            "date_modified": "2023-03-16T15:05:39.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/3df59e/",
+            "url": "https://blog.zzppjj.top/pages/3df59e/",
+            "title": "linux 阿里云盘挂载错误",
+            "date_modified": "2023-04-01T15:38:14.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/8adc3b/",
+            "url": "https://blog.zzppjj.top/pages/8adc3b/",
+            "title": "CentOS7安装Android SDK",
+            "summary": "CentOS7安装Android SDK",
+            "image": "http://pic.zzppjj.top/LightPicture/2023/04/70ecfad06095a13a.png",
+            "date_modified": "2023-04-01T15:54:41.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/db4842/",
+            "url": "https://blog.zzppjj.top/pages/db4842/",
+            "title": "linux启动顺序",
+            "date_modified": "2023-04-09T22:18:16.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/20d8b3/",
+            "url": "https://blog.zzppjj.top/pages/20d8b3/",
+            "title": "centos7升级openssl",
+            "summary": "centos7升级openssl实践",
+            "date_modified": "2023-04-13T17:16:36.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/b7531e/",
+            "url": "https://blog.zzppjj.top/pages/b7531e/",
+            "title": "expect工具的安装和使用方法",
+            "summary": "expect工具的安装和使用方法实践",
+            "date_modified": "2023-04-15T16:55:17.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/5bc955/",
+            "url": "https://blog.zzppjj.top/pages/5bc955/",
+            "title": "centos7安装更新git",
+            "date_modified": "2023-04-03T22:20:09.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/18b06c/",
+            "url": "https://blog.zzppjj.top/pages/18b06c/",
+            "title": "windows支持多用户远程登录",
+            "summary": "windows支持多用户远程登录",
+            "date_modified": "2022-12-15T18:56:36.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/adbe78/",
+            "url": "https://blog.zzppjj.top/pages/adbe78/",
+            "title": "windows应用服务部署脚本",
+            "summary": "windows应用服务部署脚本",
+            "image": "http://pic.zzppjj.top/LightPicture/2023/02/46cae67941eaa158.jpg",
+            "date_modified": "2023-02-28T22:13:50.000Z"
+        }
+    ]
+}

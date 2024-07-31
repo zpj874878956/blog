@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://blog.zzppjj.top</id>
+    <title>章工运维</title>
+    <updated>2024-07-31T06:19:35.658Z</updated>
+    <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
+    <link rel="alternate" href="https://blog.zzppjj.top"/>
+    <link rel="self" href="https://blog.zzppjj.top/feed.atom"/>
+    <subtitle>业精于勤，荒于嬉</subtitle>
+    <entry>
+        <title type="html"><![CDATA[rsync服务实现推送，拉取]]></title>
+        <id>https://blog.zzppjj.top/pages/c7f1bc/</id>
+        <link href="https://blog.zzppjj.top/pages/c7f1bc/">
+        </link>
+        <updated>2022-12-09T20:51:06.000Z</updated>
+        <summary type="html"><![CDATA[Logrotate入门了解及生产实践]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[rsync用法及参数详解]]></title>
+        <id>https://blog.zzppjj.top/pages/98cac7/</id>
+        <link href="https://blog.zzppjj.top/pages/98cac7/">
+        </link>
+        <updated>2022-12-09T20:51:06.000Z</updated>
+        <summary type="html"><![CDATA[Logrotate入门了解及生产实践]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[sed命令在文本每行,行尾或行首添加字符]]></title>
+        <id>https://blog.zzppjj.top/pages/4baba0/</id>
+        <link href="https://blog.zzppjj.top/pages/4baba0/">
+        </link>
+        <updated>2022-12-21T20:56:09.000Z</updated>
+        <summary type="html"><![CDATA[Logrotate入门了解及生产实践]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[centos7搭建dns,bind配置]]></title>
+        <id>https://blog.zzppjj.top/pages/78c801/</id>
+        <link href="https://blog.zzppjj.top/pages/78c801/">
+        </link>
+        <updated>2022-12-15T19:18:37.000Z</updated>
+        <summary type="html"><![CDATA[Logrotate入门了解及生产实践]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LVM管理]]></title>
+        <id>https://blog.zzppjj.top/pages/5f261c/</id>
+        <link href="https://blog.zzppjj.top/pages/5f261c/">
+        </link>
+        <updated>2022-12-15T17:38:10.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[linux修改网卡为eth0的两种方法]]></title>
+        <id>https://blog.zzppjj.top/pages/c17655/</id>
+        <link href="https://blog.zzppjj.top/pages/c17655/">
+        </link>
+        <updated>2022-12-21T14:34:00.000Z</updated>
+        <summary type="html"><![CDATA[sudo权限规划]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[sudo权限规划]]></title>
+        <id>https://blog.zzppjj.top/pages/0bac05/</id>
+        <link href="https://blog.zzppjj.top/pages/0bac05/">
+        </link>
+        <updated>2022-12-15T18:49:07.000Z</updated>
+        <summary type="html"><![CDATA[sudo权限规划]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Logrotate入门了解及生产实践]]></title>
+        <id>https://blog.zzppjj.top/pages/a8c469/</id>
+        <link href="https://blog.zzppjj.top/pages/a8c469/">
+        </link>
+        <updated>2023-01-11T15:19:54.000Z</updated>
+        <summary type="html"><![CDATA[Logrotate入门了解及生产实践]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[linux中用dd命令来测试硬盘读写速度]]></title>
+        <id>https://blog.zzppjj.top/pages/50263a/</id>
+        <link href="https://blog.zzppjj.top/pages/50263a/">
+        </link>
+        <updated>2023-03-16T15:05:39.000Z</updated>
+        <summary type="html"><![CDATA[linux中用dd命令来测试硬盘读写速度]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[linux 阿里云盘挂载错误]]></title>
+        <id>https://blog.zzppjj.top/pages/3df59e/</id>
+        <link href="https://blog.zzppjj.top/pages/3df59e/">
+        </link>
+        <updated>2023-04-01T15:38:14.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CentOS7安装Android SDK]]></title>
+        <id>https://blog.zzppjj.top/pages/8adc3b/</id>
+        <link href="https://blog.zzppjj.top/pages/8adc3b/">
+        </link>
+        <updated>2023-04-01T15:54:41.000Z</updated>
+        <summary type="html"><![CDATA[CentOS7安装Android SDK]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[linux启动顺序]]></title>
+        <id>https://blog.zzppjj.top/pages/db4842/</id>
+        <link href="https://blog.zzppjj.top/pages/db4842/">
+        </link>
+        <updated>2023-04-09T22:18:16.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[centos7升级openssl]]></title>
+        <id>https://blog.zzppjj.top/pages/20d8b3/</id>
+        <link href="https://blog.zzppjj.top/pages/20d8b3/">
+        </link>
+        <updated>2023-04-13T17:16:36.000Z</updated>
+        <summary type="html"><![CDATA[centos7升级openssl实践]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[expect工具的安装和使用方法]]></title>
+        <id>https://blog.zzppjj.top/pages/b7531e/</id>
+        <link href="https://blog.zzppjj.top/pages/b7531e/">
+        </link>
+        <updated>2023-04-15T16:55:17.000Z</updated>
+        <summary type="html"><![CDATA[expect工具的安装和使用方法实践]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[centos7安装更新git]]></title>
+        <id>https://blog.zzppjj.top/pages/5bc955/</id>
+        <link href="https://blog.zzppjj.top/pages/5bc955/">
+        </link>
+        <updated>2023-04-03T22:20:09.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[windows支持多用户远程登录]]></title>
+        <id>https://blog.zzppjj.top/pages/18b06c/</id>
+        <link href="https://blog.zzppjj.top/pages/18b06c/">
+        </link>
+        <updated>2022-12-15T18:56:36.000Z</updated>
+        <summary type="html"><![CDATA[windows支持多用户远程登录]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[windows应用服务部署脚本]]></title>
+        <id>https://blog.zzppjj.top/pages/adbe78/</id>
+        <link href="https://blog.zzppjj.top/pages/adbe78/">
+        </link>
+        <updated>2023-02-28T22:13:50.000Z</updated>
+        <summary type="html"><![CDATA[windows应用服务部署脚本]]></summary>
+    </entry>
+</feed>
