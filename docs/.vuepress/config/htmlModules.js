@@ -1,19 +1,19 @@
 // 官方文档：https://doc.xugaoyi.com/pages/a20ce8/#%E8%87%AA%E5%AE%9A%E4%B9%89html%E6%A8%A1%E5%9D%97
 module.exports = {
-  homeSidebarB:
-    `<div style="padding: 0.95rem">
-      <p style="
-        color: var(--textColor);
-        opacity: 0.9;
-        font-size: 20px;
-        font-weight: bold;
-        margin: 0 0 8px 0;
-      ">公众号</p>
-      <img src="http://pic.zzppjj.top/LightPicture/2023/01/72a7c6cb076f44bc.jpg"  style="width:100%;" />
-      <p>
-      章工运维，扫码或者搜索关注
-      </p>
-      </div>`,
+  // homeSidebarB:
+  //   `<div style="padding: 0.95rem">
+  //     <p style="
+  //       color: var(--textColor);
+  //       opacity: 0.9;
+  //       font-size: 20px;
+  //       font-weight: bold;
+  //       margin: 0 0 8px 0;
+  //     ">公众号</p>
+  //     <img src="http://pic.zzppjj.top/LightPicture/2023/01/72a7c6cb076f44bc.jpg"  style="width:100%;" />
+  //     <p>
+  //     章工运维，扫码或者搜索关注
+  //     </p>
+  //     </div>`,
     // `<div style="padding: 0.95rem">
     // <p style="
     //   color: var(--textColor);
