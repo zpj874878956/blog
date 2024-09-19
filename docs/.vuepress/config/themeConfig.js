@@ -109,7 +109,7 @@ module.exports = {
     // 页脚信息
     createYear: 2019, // 博客创建年份
     copyrightInfo:
-      '| <a href="https://www.foreverblog.cn/" class="d-inline-block text-muted" target="_blank" rel="external nofollow"><img src="/img/964560013b68c2e4.png" alt="点击查看十年之约" style="width:auto;height:11px;">', // 博客版权信息，支持a标签
+      '| <a href="https://www.foreverblog.cn/" class="d-inline-block text-muted" target="_blank" rel="external nofollow"><img src="/img/964560013b68c2e4.png" alt="点击查看十年之约" style="width:auto;height:11px;"> | <a rel="nofollow " target="_blank" href="https://beian.miit.gov.cn/">鄂ICP备2024072800号</a>',
     // copyrightInfo:
     //   '| <a href="https://www.foreverblog.cn/" class="d-inline-block text-muted" target="_blank" rel="external nofollow"><img src="https://t.eryajf.net/imgs/2022/01/964560013b68c2e4.png" alt="点击查看十年之约" style="width:auto;height:11px;"> | <a rel="nofollow " target="_blank" href="https://beian.miit.gov.cn/">浙ICP备18057030号</a>', // 博客版权信息，支持a标签
   },
