@@ -7,7 +7,7 @@ REMOTE_USER="root"  # 替换为你在远程服务器上的用户名
 REMOTE_HOST="114.55.113.57"
 REMOTE_DIR="/data/nginx/html/blog.zzppjj.top/"
 # 本地源目录
-SOURCE_DIR="docs/.vuepress/dist/"
+SOURCE_DIR="docs/.vuepress/dist"
 # 生成静态文件
 export NODE_OPTIONS=--openssl-legacy-provider && yarn build
 
@@ -37,7 +37,7 @@ fi
 echo "远程 dist 目录删除成功"
 
 # 使用 scp 将 dist 目录复制到远程服务器
-scp -r ${SOURCE_DIR}* $REMOTE_USER@$REMOTE_HOST:$REMOTE_DIR
+scp -r ${SOURCE_DIR} $REMOTE_USER@$REMOTE_HOST:$REMOTE_DIR
 
 # 检查是否成功复制
 if [ $? -eq 0 ]; then
