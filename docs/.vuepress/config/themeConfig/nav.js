@@ -42,7 +42,7 @@ module.exports = [
       { text: 'golang', link: '/go/'},
     ]
   },
-  { text: '关于', link: '/about/' },
+  // { text: '关于', link: '/about/' },
   { text: '友链', link: '/friends/' },
 
   // {
@@ -96,9 +96,10 @@ module.exports = [
       {
         items: [
           { text: '首页', link: 'https://www.zzppjj.top' },
+          { text: '关于我', link: 'https://resume.zzppjj.top' },
           { text: '图床', link: 'https://pic.zzppjj.top' },
           { text: '评论', link: 'https://artalk.zzppjj.top' },
-          { text: '导航栏', link: 'https://nav.zzppjj.top' },
+          { text: '导航栏', link: 'https://nav.quantchatai.top/' },
           // { text: '下载站点', link: 'https://www.zzppjj.top/download/light/' },
         ],
       },
