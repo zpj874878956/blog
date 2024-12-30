@@ -57,7 +57,7 @@ build_project() {
     #yarn install || handle_error "yarn install 失败"
     
     # 构建项目
-    yarn build || handle_error "yarn build 失败"
+    export NODE_OPTIONS=--openssl-legacy-provider && yarn build || handle_error "yarn build 失败"
     
     print_success "项目构建完成"
 }
