@@ -8,15 +8,15 @@ GITHUB_BRANCH="master"
 LOCAL_PATH="/d/zpj/blog/docs/.vuepress"
 # 颜色输出函数
 print_success() {
-    echo -e "\033[32m$1\033[0m"
+    echo -e "\033[32m$1\033[0m" >&2
 }
 
 print_error() {
-    echo -e "\033[31m$1\033[0m"
+    echo -e "\033[31m$1\033[0m" >&2
 }
 
 print_info() {
-    echo -e "\033[34m$1\033[0m"
+    echo -e "\033[34m$1\033[0m" >&2
 }
 
 # 错误处理函数
@@ -79,27 +79,26 @@ package_dist() {
     tar -czf $archive_name dist || handle_error "压缩dist目录失败"
     
     print_success "打包完成: $archive_name"
-    echo $archive_name
+    printf "%s" "$archive_name"
 }
 
 # 4. 部署到服务器
 deploy_to_server() {
     local archive_name=$1
     print_info "开始部署到服务器..."
-    
     # 创建远程目录（如果不存在）
     ssh $REMOTE_USER@$REMOTE_HOST "mkdir -p $REMOTE_PATH" || handle_error "创建远程目录失败"
-    
+    #cd $LOCAL_PATH
     # 传输文件到服务器
-    scp $archive_name $REMOTE_USER@$REMOTE_HOST:$REMOTE_PATH/ || handle_error "文件传输失败"
+    pwd
+    scp docs/.vuepress/$archive_name $REMOTE_USER@$REMOTE_HOST:$REMOTE_PATH/ || handle_error "文件传输失败"
     
     # 在服务器上解压文件
     ssh $REMOTE_USER@$REMOTE_HOST "cd $REMOTE_PATH && \
         tar -xzf $archive_name && \
         rm $archive_name" || handle_error "远程解压失败"
-    
     # 清理本地压缩包
-    rm $archive_name
+    rm docs/.vuepress/$archive_name
     
     print_success "部署完成"
 }
@@ -109,10 +108,10 @@ main() {
     print_info "开始部署流程..."
     
     # 执行Git提交
-    git_push
+    #git_push
     
     # 构建项目
-    build_project
+    #build_project
     
     # 打包dist目录
     archive_name=$(package_dist)
