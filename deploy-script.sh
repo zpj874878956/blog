@@ -108,10 +108,10 @@ main() {
     print_info "开始部署流程..."
     
     # 执行Git提交
-    #git_push
+    git_push
     
     # 构建项目
-    #build_project
+    build_project
     
     # 打包dist目录
     archive_name=$(package_dist)
