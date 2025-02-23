@@ -5,7 +5,7 @@ REMOTE_USER="root"
 REMOTE_HOST="114.55.113.57"
 REMOTE_PATH="/data/nginx/html/blog.zzppjj.top"
 GITHUB_BRANCH="master"
-LOCAL_PATH="/d/zpj/blog/docs/.vuepress"
+LOCAL_PATH="docs/.vuepress"
 # 颜色输出函数
 print_success() {
     echo -e "\033[32m$1\033[0m" >&2
