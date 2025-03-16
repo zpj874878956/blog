@@ -105,5 +105,6 @@ module.exports = [
       },
     ],
   },  
-  { text: '开往', link: 'https://www.travellings.cn/go.html' },
+  // { text: '开往', link: 'https://www.travellings.cn/go.html' },
+  { text: '周刊', link: '/weekly/' },
 ]
