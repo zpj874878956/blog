@@ -73,13 +73,13 @@ module.exports = {
 
   author: {
     // 文章默认的作者信息，可在md文件中单独配置此信息 String | {name: String, link: String}
-    name: '章工运维', // 必需
+    name: '蛮子哥', // 必需
     link: 'https://github.com/zpj874878956', // 可选的
   },
   blogger: {
     // 博主信息，显示在首页侧边栏
     avatar: 'http://pic.zzppjj.top/LightPicture/2023/02/c7ac9de8fb6cfb17.jpg',
-    name: '章工运维',
+    name: '蛮子哥',
     slogan: '业精于勤，荒于嬉',
   },
   social: {

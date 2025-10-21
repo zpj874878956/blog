@@ -6,7 +6,7 @@ module.exports = {
   theme: 'vdoing', // 使用npm包主题
   // theme: require.resolve('../../theme-vdoing'), // 使用本地主题
 
-  title: "章工运维",
+  title: "蛮子哥",
   description: '业精于勤，荒于嬉',
   base: '/', // 格式：'/<仓库名>/'， 默认'/'
   markdown: {

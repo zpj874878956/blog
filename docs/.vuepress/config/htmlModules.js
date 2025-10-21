@@ -11,7 +11,7 @@ module.exports = {
   //     ">公众号</p>
   //     <img src="http://pic.zzppjj.top/LightPicture/2023/01/72a7c6cb076f44bc.jpg"  style="width:100%;" />
   //     <p>
-  //     章工运维，扫码或者搜索关注
+  //     蛮子哥，扫码或者搜索关注
   //     </p>
   //     </div>`,
     // `<div style="padding: 0.95rem">
