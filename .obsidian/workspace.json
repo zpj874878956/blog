@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/00.目录页/03.elk.md",
+                "file": "docs/01.专题/04.jenkins/11.自动化CICD部署示例展示一.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03.elk"
+              "title": "11.自动化CICD部署示例展示一"
             }
           }
         ]
@@ -185,10 +185,11 @@
   },
   "active": "cc7c9e18ca613cc0",
   "lastOpenFiles": [
+    "docs/00.目录页/03.elk.md",
     "docs/00.目录页/32.AI编程.md",
     "docs/00.目录页/04.jenkins - 副本.md",
     "docs/01.专题/06.AI编程/04.OpenCode-CLI配置.md",
-    "docs/01.专题/04.jenkins/11、自动化CICD部署示例展示一.md",
+    "docs/01.专题/04.jenkins/11.自动化CICD部署示例展示一.md",
     "docs/08.周刊/02.学习周刊-第02期.md",
     "docs/08.周刊/03.学习周刊-第03期.md",
     "docs/08.周刊/04.学习周刊-第04期.md",
