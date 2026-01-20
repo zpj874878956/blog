@@ -1,0 +1,442 @@
+---
+title: 未命名
+date: 2026-01-20 13:53:35
+permalink: /pages/3b3592/
+categories:
+  - 专题
+  - jenkins
+tags:
+  - 
+---
+> 在 DevOps 实践中，Linux 作为基础设施的核心操作系统，其自动化能力直接决定了研发运维链路的效率、稳定性与可扩展性。 自动化脚本不仅是简化重复操作的“利器”，更是打通开发、测试、部署全流程的“桥梁”。
+
+对于DevOps 工程师而言，**熟练编写 Linux 自动化脚本并实现与主流工具链的深度整合**，是提升工作效能、保障业务连续性的核心技能。
+
+本文将从 **核心价值 → 实用脚本 → 工具链整合 → 自动化流程 → 最佳实践** 五个维度，系统梳理 DevOps 自动化体系。
+
+---
+
+# 一、Linux 自动化脚本在 DevOps 中的核心价值
+
+DevOps 的目标是：**让代码从提交到上线不依赖人肉操作**。
+
+Linux 脚本正是这个闭环的“发动机”。
+
+|价值|说明|
+|---|---|
+|🚀 提升效率|一次部署从 30 分钟 → 30 秒|
+|🧱 流程标准化|运维经验固化成代码|
+|🔁 可回滚|出错可自动恢复|
+|🧩 工具联动|Jenkins / GitLab / Ansible 都靠它|
+
+一句话总结：
+
+> **没有脚本的 DevOps，只是“自动点鼠标”。**
+
+---
+
+# 二、实战脚本一：企业级应用自动部署脚本
+
+这个脚本支持：
+
+- Git 拉取
+    
+- Maven 构建
+    
+- 服务停止 & 启动
+    
+- 版本备份
+    
+- 一键回滚
+    
+- Systemd 管理
+    
+
+适合 **Spring Boot / Java 服务**（Python、Node 也可改造）。
+
+## 🎯 架构
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/KUunTzASjic6Mor6TKrw8sTB5DrvsVQicIICAPDCWicystYibKpP0Goy3xOsc2RzkY4OXwjibATgxWyBicak10bNBibmg/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=1)
+
+## 核心能力
+
+- 支持命令：`deploy | rollback | start | stop | restart`
+    
+- 自动备份 jar
+    
+- 支持分支 / tag 切换
+    
+- 自动写部署日志
+    
+
+## 关键代码片段（节选）
+
+```bash
+# 备份当前版本  
+backup_current_version() {  
+    mkdir -p "${BACKUP_DIR}"  
+    if [ -f "${APP_DIR}/${JAR_NAME}" ]; then  
+        cp"${APP_DIR}/${JAR_NAME}" \  
+           "${BACKUP_DIR}/${JAR_NAME}.$(date +%Y%m%d%H%M%S)"  
+    fi  
+}  
+# 拉代码并构建  
+git checkout ${GIT_BRANCH}  
+git pull origin ${GIT_BRANCH}  
+./mvnw clean package -DskipTests  
+cp target/${JAR_NAME}${APP_DIR}/  
+# 回滚  
+latest=$(ls -t ${BACKUP_DIR}/${JAR_NAME}.* | head -1)  
+cp${latest}${APP_DIR}/${JAR_NAME}  
+systemctl restart user-service
+```
+
+## 使用方式
+
+```bash
+chmod +x deploy_app.sh  
+./deploy_app.sh deploy 
+./deploy_app.sh rollback 
+```
+
+---
+
+# 三、实战脚本二：日志轮转 + 压缩 + 清理
+
+生产环境最常见的故障之一：
+
+> 💥 磁盘爆满 → 服务宕机 → 运维背锅
+
+这个日志轮转脚本支持：
+
+|能力|支持|
+|---|---|
+|按大小切割|100M 自动切|
+|按时间切割|daily / weekly|
+|自动压缩|gzip / bzip2|
+|自动清理|N 天前删除|
+|crontab 定时|√|
+
+## 核心逻辑
+
+```bash
+#!/bin/bash
+# =========================================================
+# 日志轮转与清理脚本
+# 功能：
+#  - 按大小/时间切割日志
+#  - 历史日志自动压缩
+#  - 超期 & 超量自动清理
+# =========================================================
+
+set -euo pipefail
+
+# ---------------- 基础配置 ----------------
+LOG_FILES=(
+"/opt/apps/lightpicture/nginx.log/access.log"
+"/opt/apps/lightpicture/nginx.log/error.log"
+)
+
+ROTATE_MODE="size"            # size | time
+MAX_SIZE="10M"
+ROTATE_INTERVAL="daily"      # daily | weekly | monthly
+MAX_BACKUP_COUNT=30
+COMPRESS_ENABLE=true
+COMPRESS_TYPE="gzip"         # gzip | bzip2
+EXPIRE_DAYS=7
+SCRIPT_LOG="/opt/apps/script_log/log_rotate_script.log"
+
+# ---------------- 日志函数 ----------------
+log() {
+    local level=$1
+    local msg=$2
+    local ts
+    ts=$(date "+%F %T")
+    echo "[$ts] [$level] $msg" | tee -a "$SCRIPT_LOG"
+}
+
+# ---------------- 工具函数 ----------------
+size_to_bytes() {
+    local s=$1
+    local num unit
+    num=$(echo "$s" | grep -oE '^[0-9]+')
+    unit=$(echo "$s" | grep -oE '[KMG]$' || true)
+
+    case "$unit" in
+        K) echo $((num * 1024)) ;;
+        M) echo $((num * 1024 * 1024)) ;;
+        G) echo $((num * 1024 * 1024 * 1024)) ;;
+        *) echo"$num" ;;
+    esac
+}
+
+signal_process() {
+    local logfile=$1
+    local proc
+    proc=$(basename "${logfile%.log}")
+    pgrep -f "$proc" | xargs -r kill -USR1 || true
+}
+
+compress_file() {
+    local f=$1
+    case "$COMPRESS_TYPE" in
+        gzip) gzip "$f" ;;
+        bzip2) bzip2 "$f" ;;
+        *) log WARN "不支持压缩格式 $COMPRESS_TYPE" ;;
+    esac
+}
+
+# ---------------- 清理逻辑 ----------------
+clean_expire_logs() {
+    local logfile=$1
+    local dir base
+    dir=$(dirname "$logfile")
+    base=$(basename "$logfile")
+
+    find "$dir" -maxdepth 1 -name "$base.*" -type f -mtime +"$EXPIRE_DAYS" -delete
+    log INFO "已清理 $EXPIRE_DAYS 天前日志: $base"
+}
+
+clean_count_logs() {
+    local logfile=$1
+    local dir base
+    dir=$(dirname "$logfile")
+    base=$(basename "$logfile")
+
+    ls -t "$dir/$base".* 2>/dev/null | tail -n +$((MAX_BACKUP_COUNT + 1)) | xargs -r rm -f
+    log INFO "已限制 $base 历史日志数量 <= $MAX_BACKUP_COUNT"
+}
+
+# ---------------- 按大小轮转 ----------------
+rotate_by_size() {
+    local logfile=$1
+    [ -f "$logfile" ] || { log WARN "$logfile 不存在"; return; }
+
+    local max current
+    max=$(size_to_bytes "$MAX_SIZE")
+    current=$(stat -c %s "$logfile")
+
+    if [ "$current" -lt "$max" ]; then
+        log INFO "$logfile 未达阈值，跳过"
+        return
+    fi
+
+    local ts backup
+    ts=$(date +%Y%m%d%H%M%S)
+    backup="${logfile}.${ts}"
+
+    mv "$logfile" "$backup"
+    signal_process "$logfile"
+
+    log INFO "切割完成: $backup"
+
+    $COMPRESS_ENABLE && compress_file "$backup"
+    clean_expire_logs "$logfile"
+    clean_count_logs "$logfile"
+}
+
+# ---------------- 按时间轮转 ----------------
+rotate_by_time() {
+    local logfile=$1
+    [ -f "$logfile" ] || { log WARN "$logfile 不存在"; return; }
+
+    case "$ROTATE_INTERVAL" in
+        daily)   ts=$(date +%Y%m%d) ;;
+        weekly)  ts=$(date +%Y%U) ;;
+        monthly) ts=$(date +%Y%m) ;;
+        *) log ERROR "非法周期"; exit 1 ;;
+    esac
+
+    local backup="${logfile}.${ts}"
+    [ -f "$backup" ] || [ -f "$backup.$COMPRESS_TYPE" ] && {
+        log INFO "已切割，跳过"
+        return
+    }
+
+    mv "$logfile" "$backup"
+    signal_process "$logfile"
+    log INFO "时间切割完成: $backup"
+
+    $COMPRESS_ENABLE && compress_file "$backup"
+    clean_expire_logs "$logfile"
+    clean_count_logs "$logfile"
+}
+
+# ---------------- 主入口 ----------------
+log INFO "日志轮转开始 mode=$ROTATE_MODE"
+
+for f in "${LOG_FILES[@]}"; do
+    case "$ROTATE_MODE" in
+        size) rotate_by_size "$f" ;;
+        time) rotate_by_time "$f" ;;
+        *) log ERROR "未知模式 $ROTATE_MODE"; exit 1 ;;
+    esac
+done
+
+log INFO "日志轮转结束"
+```
+
+## crontab 示例
+
+`0 2 * * * /opt/scripts/log_rotate.sh   `
+
+这比 logrotate 更灵活，更适合微服务场景。
+
+---
+
+# 四、与 DevOps 工具链深度整合
+
+## 1️⃣ Jenkins Pipeline
+
+```
+pipeline {  
+    agent any  
+    environment {  
+        APP_NAME = 'user-service'  
+        SCRIPT_PATH = '/opt/scripts/deploy_app.sh'  
+    }  
+    stages {  
+        stage('拉取代码') {  
+            steps {  
+                git url: 'https://gitlab.example.com/dev/user-service.git', branch: 'release-1.0'  
+            }  
+        }  
+        stage('自动化部署') {  
+            steps {  
+                sh "${SCRIPT_PATH} deploy"  
+            }  
+        }  
+        stage('服务验证') {  
+            steps {  
+                sh "systemctl is-active --quiet ${APP_NAME} || exit 1"  
+                sh "curl -f http://localhost:8080/actuator/health || exit 1"  
+            }  
+        }  
+    }  
+    post {  
+        success {  
+            echo "${APP_NAME}部署成功"  
+            // 发送通知（如企业微信、邮件）  
+        }  
+        failure {  
+            echo "${APP_NAME}部署失败，执行回滚"  
+            sh "${SCRIPT_PATH} rollback"  
+        }  
+    }  
+}
+```
+
+💡 Jenkins 只负责编排 💡 Bash 脚本负责真正的执行
+
+---
+
+## 2️⃣ GitLab CI
+
+ ```
+ stages:  
+  -build  
+-deploy  
+  
+variables:  
+APP_NAME:user-service  
+SCRIPT_PATH:/opt/scripts/deploy_app.sh  
+  
+build_job:  
+stage:build  
+script:  
+    -./mvnwcleanpackage-DskipTests  
+    -cptarget/${APP_NAME}.jar/opt/apps/${APP_NAME}/src/target/  
+only:  
+    -release/*  
+  
+deploy_job:  
+stage:deploy  
+script:  
+    -${SCRIPT_PATH}deploy  
+dependencies:  
+    -build_job  
+only:  
+    -release/*
+ ```
+
+一提交 release 分支 → 自动上线
+
+---
+
+## 3️⃣ Ansible 批量部署
+
+```
+- hosts: app_servers  
+  tasks:  
+    - copy:  
+        src: deploy_app.sh  
+        dest: /opt/scripts/  
+    - script: /opt/scripts/deploy_app.sh deploy
+```
+你可以 **一次性部署 50 台服务器**。
+
+---
+
+## 4️⃣ Terraform 初始化执行
+
+```
+provisioner "remote-exec" {  
+  inline = [  
+    "curl -O log_rotate.sh",  
+    "chmod +x log_rotate.sh",  
+    "./log_rotate.sh"  
+  ]  
+}
+```
+
+服务器一创建 → 日志轮转自动就位。
+
+---
+
+# 五、CI/CD 自动化全流程图
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/KUunTzASjic6Mor6TKrw8sTB5DrvsVQicIIlU0NlmymFULNm72Uia3pibQS0Jo9H3LF9XrUqbvs1Kw6YvqgzlicPnIQ/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=2)
+
+这，就是**现代 DevOps 的真实形态**。
+
+---
+
+# 六、生产级脚本最佳实践
+
+## 1️⃣ 安全
+
+- 禁止脚本硬编码密码
+    
+- 使用 env / Vault
+    
+- 使用 sudo 最小权限
+    
+- MD5 校验脚本完整性
+    
+
+`set -euo pipefail   `
+
+---
+
+## 2️⃣ 错误控制
+
+- 任一命令失败 → 立即退出
+    
+- 关键步骤失败 → 回滚
+    
+- 日志必须可追踪
+    
+
+---
+
+## 3️⃣ 可维护性
+
+- 所有参数集中在脚本顶部
+    
+- 功能全部函数化
+    
+- Git 管理脚本版本
+    
+- README 说明用法
+---
+[原文链接](https://mp.weixin.qq.com/s/GYfkBRuxStWnqs4wEmH8ew)

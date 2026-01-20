@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f377273d7d765dbc",
+        "id": "9444d63ec2c9025a",
         "type": "tabs",
         "children": [
           {
-            "id": "3fcf49770c1f4543",
+            "id": "cc7c9e18ca613cc0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/01.专题/06.AI编程/04.OpenCode-CLI配置.md",
+                "file": "docs/00.目录页/03.elk.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04.OpenCode-CLI配置"
+              "title": "03.elk"
             }
           }
         ]
@@ -183,10 +183,26 @@
       "bases:新建数据库": false
     }
   },
-  "active": "3fcf49770c1f4543",
+  "active": "cc7c9e18ca613cc0",
   "lastOpenFiles": [
-    "docs/03.编程/01.python/24.通用项目架构模板.md",
+    "docs/00.目录页/32.AI编程.md",
+    "docs/00.目录页/04.jenkins - 副本.md",
     "docs/01.专题/06.AI编程/04.OpenCode-CLI配置.md",
+    "docs/01.专题/04.jenkins/11、自动化CICD部署示例展示一.md",
+    "docs/08.周刊/02.学习周刊-第02期.md",
+    "docs/08.周刊/03.学习周刊-第03期.md",
+    "docs/08.周刊/04.学习周刊-第04期.md",
+    "docs/08.周刊/05.学习周刊-第05期.md",
+    "docs/08.周刊/06.学习周刊-第06期.md",
+    "docs/08.周刊/07.学习周刊-第07期.md",
+    "docs/08.周刊/08.学习周刊-第08期.md",
+    "docs/08.周刊/09.学习周刊-第09期.md",
+    "docs/08.周刊/10.学习周刊-第10期.md",
+    "docs/03.编程/02.shell/02.日志切割脚本.md",
+    "未命名.canvas",
+    "2026-01-19.md",
+    "node_modules/markdown-it-table-of-contents/test/fixtures/full-toc-sample.md",
+    "docs/03.编程/01.python/24.通用项目架构模板.md",
     "docs/01.专题/06.AI编程",
     "docs/03.编程/01.python/23.语言层要素.md",
     "docs/03.编程/01.python/22.python离线环境模块安装.md"
