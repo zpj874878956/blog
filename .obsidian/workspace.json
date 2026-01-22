@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "9444d63ec2c9025a",
+        "id": "d8b52bf91dfa96e4",
         "type": "tabs",
         "children": [
           {
-            "id": "cc7c9e18ca613cc0",
+            "id": "9a5cc415e1b66b55",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/01.专题/04.jenkins/11.自动化CICD部署示例展示一.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "11.自动化CICD部署示例展示一"
+              "title": "新标签页"
             }
           }
         ]
@@ -183,13 +179,23 @@
       "bases:新建数据库": false
     }
   },
-  "active": "cc7c9e18ca613cc0",
+  "active": "9a5cc415e1b66b55",
   "lastOpenFiles": [
+    "docs/02.生活/03.工具/23.pr剪辑软件.md",
+    "docs/02.生活/03.工具/04.使用这7个谷歌搜索技巧来找到你想要的，老司机必备技巧.md",
+    "docs/02.生活/02.面试/08.运维面试题.md",
+    "docs/07.收藏夹/07.github开源项目之运维类.md",
+    "docs/07.收藏夹/06.github开源项目之工具类.md",
+    "docs/07.收藏夹/05.github开源项目之系统类.md",
+    "docs/07.收藏夹/04.AIGC汇总.md",
+    "docs/07.收藏夹/03.个人办公软件.md",
+    "docs/07.收藏夹/01.常用收藏夹.md",
+    "docs/07.收藏夹/02.网站收藏夹.md",
+    "docs/01.专题/04.jenkins/11.自动化CICD部署示例展示一.md",
     "docs/00.目录页/03.elk.md",
     "docs/00.目录页/32.AI编程.md",
     "docs/00.目录页/04.jenkins - 副本.md",
     "docs/01.专题/06.AI编程/04.OpenCode-CLI配置.md",
-    "docs/01.专题/04.jenkins/11.自动化CICD部署示例展示一.md",
     "docs/08.周刊/02.学习周刊-第02期.md",
     "docs/08.周刊/03.学习周刊-第03期.md",
     "docs/08.周刊/04.学习周刊-第04期.md",
@@ -202,10 +208,6 @@
     "docs/03.编程/02.shell/02.日志切割脚本.md",
     "未命名.canvas",
     "2026-01-19.md",
-    "node_modules/markdown-it-table-of-contents/test/fixtures/full-toc-sample.md",
-    "docs/03.编程/01.python/24.通用项目架构模板.md",
-    "docs/01.专题/06.AI编程",
-    "docs/03.编程/01.python/23.语言层要素.md",
-    "docs/03.编程/01.python/22.python离线环境模块安装.md"
+    "docs/01.专题/06.AI编程"
   ]
 }
