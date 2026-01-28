@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/07.收藏夹/07.github开源项目之运维类.md",
+                "file": "docs/04.运维/12.监控/03.自定义/01.可视化ping监控：基于Python+InfluxDB+Grafana的实践.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "07.github开源项目之运维类"
+              "title": "01.可视化ping监控：基于Python+InfluxDB+Grafana的实践"
             }
           }
         ]
@@ -185,16 +185,19 @@
   },
   "active": "9a5cc415e1b66b55",
   "lastOpenFiles": [
-    "docs/07.收藏夹/02.网站收藏夹.md",
     "docs/07.收藏夹/03.个人办公软件.md",
+    "docs/07.收藏夹/08.导航栏.md",
+    "docs/07.收藏夹/01.常用收藏夹.md",
+    "docs/07.收藏夹/02.网站收藏夹.md",
+    "docs/04.运维/12.监控/03.自定义/01.可视化ping监控：基于Python+InfluxDB+Grafana的实践.md",
     "docs/07.收藏夹/07.github开源项目之运维类.md",
+    "docs/04.运维/12.监控/03.自定义",
     "docs/07.收藏夹/06.github开源项目之工具类.md",
     "docs/07.收藏夹/05.github开源项目之系统类.md",
     "docs/07.收藏夹/04.AIGC汇总.md",
     "docs/02.生活/03.工具/23.pr剪辑软件.md",
     "docs/02.生活/03.工具/04.使用这7个谷歌搜索技巧来找到你想要的，老司机必备技巧.md",
     "docs/02.生活/02.面试/08.运维面试题.md",
-    "docs/07.收藏夹/01.常用收藏夹.md",
     "docs/01.专题/04.jenkins/11.自动化CICD部署示例展示一.md",
     "docs/00.目录页/03.elk.md",
     "docs/00.目录页/32.AI编程.md",
@@ -209,9 +212,7 @@
     "docs/08.周刊/08.学习周刊-第08期.md",
     "docs/08.周刊/09.学习周刊-第09期.md",
     "docs/08.周刊/10.学习周刊-第10期.md",
-    "docs/03.编程/02.shell/02.日志切割脚本.md",
     "未命名.canvas",
-    "2026-01-19.md",
     "docs/01.专题/06.AI编程"
   ]
 }
