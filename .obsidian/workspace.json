@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/07.收藏夹/07.github开源项目之运维类.md",
+                "file": "docs/07.收藏夹/05.github开源项目之系统类.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "07.github开源项目之运维类"
+              "title": "05.github开源项目之系统类"
             }
           }
         ]
@@ -185,11 +185,11 @@
   },
   "active": "9a5cc415e1b66b55",
   "lastOpenFiles": [
-    "docs/07.收藏夹/04.AIGC汇总.md",
-    "docs/07.收藏夹/06.github开源项目之工具类.md",
-    "docs/07.收藏夹/07.github开源项目之运维类.md",
     "docs/07.收藏夹/08.导航栏.md",
     "docs/07.收藏夹/05.github开源项目之系统类.md",
+    "docs/07.收藏夹/07.github开源项目之运维类.md",
+    "docs/07.收藏夹/04.AIGC汇总.md",
+    "docs/07.收藏夹/06.github开源项目之工具类.md",
     "docs/07.收藏夹/01.常用收藏夹.md",
     "docs/07.收藏夹/02.网站收藏夹.md",
     "docs/07.收藏夹/03.个人办公软件.md",
