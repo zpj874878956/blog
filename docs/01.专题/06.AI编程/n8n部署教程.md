@@ -1,0 +1,96 @@
+---
+title: n8部署教程
+date: 2026-03-07 22:00:43
+permalink: /pages/f4cce0/
+categories:
+  - 专题
+  - AI编程
+tags:
+  - 
+
+---
+
+# linux系统安装n8n
+
+docker compose 文件
+
+```docker
+services:
+  n8n:
+    image: n8nio/n8n
+    container_name: n8n
+    restart: always
+    ports:
+      - "5678:5678"
+    environment:
+      - N8N_HOST=0.0.0.0          # 替换为你的域名或公网IP
+      - N8N_PORT=5678
+      - N8N_PROTOCOL=http                # 有HTTPS改https，纯HTTP改http
+      - WEBHOOK_URL=http://107.172.209.161:15678/
+      - N8N_SECURE_COOKIE=false           # 没有HTTPS时设为false
+      - GENERIC_TIMEZONE=Asia/Shanghai
+    volumes:
+      - n8n_data:/home/node/.n8n
+
+volumes:
+  n8n_data:
+```
+
+nginx配置
+
+```nginx
+server {
+    listen 15678;
+    server_name 107.172.209.161;
+
+    client_max_body_size 100m;
+
+    location / {
+        proxy_pass http://127.0.0.1:5678;
+        proxy_http_version 1.1;
+
+        # WebSocket 关键配置
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "upgrade";
+
+        proxy_set_header Host              $host:$server_port;  # 带端口，不带端口可以去掉:$server_port
+        proxy_set_header X-Real-IP         $remote_addr;
+        proxy_set_header X-Forwarded-For   $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+        proxy_set_header X-Forwarded-Port  15678;
+
+        proxy_read_timeout    3600s;
+        proxy_send_timeout    3600s;
+        proxy_connect_timeout 60s;
+
+        proxy_buffering off;
+        proxy_cache     off;
+    }
+}
+```
+
+访问：http://107.172.209.161:15678/
+
+# windows系统安装n8n
+
+安装docker地址
+
+https://docs.docker.com/desktop/setup/install/windows-install/
+
+在power shell执行启动命令
+
+```
+docker run -d `
+  --name n8n `
+  -p 5678:5678 `
+  -e GENERIC_TIMEZONE="Asia/Shanghai" `
+  -e TZ="Asia/Shanghai" `
+  -e N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=false `
+  -e NODES_EXCLUDE="[]" `
+  -e N8N_SKIP_AUTH_ON_OAUTH_CALLBACK=false `
+  -e N8N_RESTRICT_FILE_ACCESS_TO=/home/node/n8ndata `
+  -v "替换成本地目录:/home/node/.n8n" `
+  -v "替换成本地目录:/home/node/n8ndata" `
+  docker.n8n.io/n8nio/n8n:latest 
+```
+
