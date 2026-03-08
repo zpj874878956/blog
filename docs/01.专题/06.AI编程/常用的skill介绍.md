@@ -30,3 +30,5 @@ cladue code技能集
 4、subtitle-proofreader（标题生成的skill）
 
 5、wechat-title-generator（微信文章创建的skill）
+
+6、n8n-mcp、n8n-skills(https://github.com/czlonkowski/n8n-mcp)
