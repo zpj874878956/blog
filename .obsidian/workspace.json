@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/01.专题/07.n8n最佳实践案例.md",
+                "file": "docs/01.专题/06.AI编程/08.AI工具选择.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "07.n8n最佳实践案例"
+              "title": "08.AI工具选择"
             }
           }
         ]
@@ -185,9 +185,9 @@
   },
   "active": "9a5cc415e1b66b55",
   "lastOpenFiles": [
-    "docs/01.专题/06.AI编程/08.AI工具选择.md",
-    "docs/01.专题/07.n8n最佳实践案例.md",
+    "docs/01.专题/06.AI编程/09.n8n最佳实践案例.md",
     "docs/01.专题/06.AI编程/07.claude code工作模式介绍.md",
+    "docs/01.专题/06.AI编程/08.AI工具选择.md",
     "docs/01.专题/06.AI编程/01.OpenCode-CLI配置.md",
     "docs/01.专题/06.AI编程/02.ollama、openclaw本地化部署.md",
     "docs/01.专题/06.AI编程/06.OpenClaw skills安装与使用完全指南.md",
