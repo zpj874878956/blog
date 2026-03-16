@@ -1,0 +1,22 @@
+---
+title: 提示词网站
+date: 2026-03-16 21:34:15
+permalink: /pages/daf685/
+categories:
+  - 专题
+  - 提示词
+tags:
+  - 
+---
+
+1、**[AI-IDE-Agent](https://github.com/bjlida/AI-IDE-Agent)**
+
+这是一个包含61个专业领域智能体提示词的完整合集，专为Claude/Cursor/trae设计，涵盖从编程语言到业务分析的各个专业领域。
+
+2、**[prompt-optimizer](https://github.com/linshenkx/prompt-optimizer)**
+
+Prompt Optimizer是一个强大的AI提示词优化工具，帮助你编写更好的AI提示词，提升AI输出质量。支持Web应用、桌面应用、Chrome插件和Docker部署四种使用方式。
+
+3、https://feicaiclub.feishu.cn/wiki/VbrYwbAQ5iNW6ikWDMpc1hLJnnf
+
+4、https://chatgpt.com/g/g-L4pLMVQ05-ti-shi-ci-sheng-cheng-qi/c/69b803c6-1950-8328-becc-a08ffb76cdee
