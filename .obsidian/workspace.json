@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/01.专题/06.AI编程/10.提示词技巧.md",
+                "file": "docs/07.收藏夹/07.github开源项目之运维类.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10.提示词技巧"
+              "title": "07.github开源项目之运维类"
             }
           }
         ]
@@ -185,10 +185,13 @@
   },
   "active": "9a5cc415e1b66b55",
   "lastOpenFiles": [
-    "docs/01.专题/06.AI编程/05.n8n部署教程.md",
-    "docs/01.专题/06.AI编程/10.提示词技巧.md",
-    "docs/07.收藏夹/04.AIGC汇总.md",
     "docs/07.收藏夹/08.导航栏.md",
+    "docs/07.收藏夹/07.github开源项目之运维类.md",
+    "docs/01.专题/06.AI编程/10.提示词技巧.md",
+    "docs/01.专题/07.提示词/01.提示词网站.md",
+    "docs/01.专题/07.提示词",
+    "docs/01.专题/06.AI编程/05.n8n部署教程.md",
+    "docs/07.收藏夹/04.AIGC汇总.md",
     "docs/07.收藏夹/06.github开源项目之工具类.md",
     "docs/01.专题/06.AI编程/06.OpenClaw skills安装与使用完全指南.md",
     "docs/01.专题/06.AI编程/08.AI工具选择.md",
@@ -200,7 +203,6 @@
     "docs/01.专题/06.AI编程/03.网络代理和环境变量设置操作.md",
     "docs/07.收藏夹/02.网站收藏夹.md",
     "docs/02.生活/01.随笔/18.租房避坑指南.md",
-    "docs/07.收藏夹/07.github开源项目之运维类.md",
     "docs/02.生活/01.随笔/01.男人心智成熟的九大表现.md",
     "docs/07.收藏夹/05.github开源项目之系统类.md",
     "docs/04.运维/09.系统/09.other/02.系统设计入门.md",
@@ -211,7 +213,6 @@
     "docs/02.生活/01.随笔/24.开源建站工具汇总.md",
     "docs/04.运维/12.监控/03.自定义/01.可视化ping监控：基于Python+InfluxDB+Grafana的实践.md",
     "docs/04.运维/12.监控/03.自定义",
-    "docs/02.生活/03.工具/23.pr剪辑软件.md",
     "未命名.canvas",
     "docs/01.专题/06.AI编程"
   ]
