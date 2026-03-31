@@ -11,10 +11,14 @@
             "id": "d1f1afc18d10a49e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "README"
             }
           }
         ]
@@ -181,10 +185,12 @@
   },
   "active": "d1f1afc18d10a49e",
   "lastOpenFiles": [
+    "docs/02.生活/01.随笔/28.电力知识.md",
+    "docs/01.专题/06.AI编程/10.提示词技巧.md",
+    "docs/04.运维/08.数据库/02.mongodb/03.mongo备份和迁移.md",
     "docs/07.收藏夹/08.导航栏.md",
     "docs/07.收藏夹/06.github开源项目之工具类.md",
     "docs/07.收藏夹/07.github开源项目之运维类.md",
-    "docs/01.专题/06.AI编程/10.提示词技巧.md",
     "docs/01.专题/07.提示词/01.提示词网站.md",
     "docs/01.专题/07.提示词",
     "docs/01.专题/06.AI编程/05.n8n部署教程.md",
@@ -206,8 +212,6 @@
     "docs/01.专题/06.AI编程/Untitled.md",
     "docs/07.收藏夹/01.常用收藏夹.md",
     "docs/07.收藏夹/03.个人办公软件.md",
-    "docs/02.生活/01.随笔/24.开源建站工具汇总.md",
-    "docs/04.运维/12.监控/03.自定义/01.可视化ping监控：基于Python+InfluxDB+Grafana的实践.md",
     "docs/04.运维/12.监控/03.自定义",
     "未命名.canvas",
     "docs/01.专题/06.AI编程"
