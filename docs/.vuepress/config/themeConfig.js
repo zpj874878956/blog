@@ -7,7 +7,7 @@ const { readFileList, readTotalFileWords, readEachFileWords } = require('../webS
 module.exports = {
   nav, // 顶部导航栏
   sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
-  logo: 'http://pic.zzppjj.top/LightPicture/2023/03/c818c3c19bf7c336.png', // 导航栏logo
+  logo: 'https://cloudflare-imgbed-ews.pages.dev/file/2026/03/1774936556707_c818c3c19bf7c336.png', // 导航栏logo
   repo: 'zpj874878956', // 导航栏右侧生成Github链接
   searchMaxSuggestions: 10, // 搜索结果显示最大数
   lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
@@ -78,7 +78,7 @@ module.exports = {
   },
   blogger: {
     // 博主信息，显示在首页侧边栏
-    avatar: 'http://pic.zzppjj.top/LightPicture/2023/02/c7ac9de8fb6cfb17.jpg',
+    avatar: 'https://cloudflare-imgbed-ews.pages.dev/file/2026/03/1774936556554_xiyang.jpg',
     name: '蛮子哥',
     slogan: '业精于勤，荒于嬉',
   },
