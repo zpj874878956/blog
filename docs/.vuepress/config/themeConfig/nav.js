@@ -25,6 +25,7 @@ module.exports = [
       { text: 'ansible', link: '/ansible/'},
       { text: 'Jenkins', link: '/jenkins/'},
       { text: 'GitLabCI_CD', link: '/gitlabci/'},
+      { text: 'ArgoCD', link: '/argocd/'},
     ]
   },
   { text: '生活',link: '/life/',
