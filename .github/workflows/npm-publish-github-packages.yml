@@ -40,3 +40,4 @@ jobs:
           publish_dir: docs/.vuepress/dist
           publish_branch: gh-pages
           force_orphan: true
+          cname: blog.zzppjj.top
