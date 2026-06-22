@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://blog.zzppjj.top</id>
+    <title>蛮子哥</title>
+    <updated>2026-06-22T04:46:50.133Z</updated>
+    <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
+    <link rel="alternate" href="https://blog.zzppjj.top"/>
+    <link rel="self" href="https://blog.zzppjj.top/feed.atom"/>
+    <subtitle>业精于勤，荒于嬉</subtitle>
+    <entry>
+        <title type="html"><![CDATA[ansible入门]]></title>
+        <id>https://blog.zzppjj.top/pages/12c5da01/</id>
+        <link href="https://blog.zzppjj.top/pages/12c5da01/">
+        </link>
+        <updated>2022-07-22T16:22:11.000Z</updated>
+        <summary type="html"><![CDATA[原文链接：https://www.cnblogs.com/lvzhenjiang/p/14199445.html]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[anisble批量安装node_exporter]]></title>
+        <id>https://blog.zzppjj.top/pages/f8f66c/</id>
+        <link href="https://blog.zzppjj.top/pages/f8f66c/">
+        </link>
+        <updated>2022-12-09T20:53:14.000Z</updated>
+        <summary type="html"><![CDATA[原文链接：https://www.cnblogs.com/lvzhenjiang/p/14374243.html]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ansible-playbook中的变量]]></title>
+        <id>https://blog.zzppjj.top/pages/d740bc/</id>
+        <link href="https://blog.zzppjj.top/pages/d740bc/">
+        </link>
+        <updated>2022-12-09T20:53:14.000Z</updated>
+        <summary type="html"><![CDATA[原文链接：https://www.cnblogs.com/lvzhenjiang/p/14385777.html]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ansible之roles简单使用]]></title>
+        <id>https://blog.zzppjj.top/pages/847542/</id>
+        <link href="https://blog.zzppjj.top/pages/847542/">
+        </link>
+        <updated>2022-12-09T20:53:07.000Z</updated>
+        <summary type="html"><![CDATA[目录]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ansible性能优化——提升ansible执行效率]]></title>
+        <id>https://blog.zzppjj.top/pages/a06506/</id>
+        <link href="https://blog.zzppjj.top/pages/a06506/">
+        </link>
+        <updated>2022-12-09T20:53:07.000Z</updated>
+        <summary type="html"><![CDATA[原文链接：Ansible性能优化——提升ansible执行效率 - 吕振江 - 博客园]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ansible中template简单使用]]></title>
+        <id>https://blog.zzppjj.top/pages/4189b8/</id>
+        <link href="https://blog.zzppjj.top/pages/4189b8/">
+        </link>
+        <updated>2022-12-09T20:53:07.000Z</updated>
+        <summary type="html"><![CDATA[目录]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[playbook详解]]></title>
+        <id>https://blog.zzppjj.top/pages/14eda9/</id>
+        <link href="https://blog.zzppjj.top/pages/14eda9/">
+        </link>
+        <updated>2022-12-09T20:53:07.000Z</updated>
+        <summary type="html"><![CDATA[目录]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ansible-playbook编排使用tips]]></title>
+        <id>https://blog.zzppjj.top/pages/7eca6b/</id>
+        <link href="https://blog.zzppjj.top/pages/7eca6b/">
+        </link>
+        <updated>2023-01-11T15:06:48.000Z</updated>
+        <summary type="html"><![CDATA[在日常配置编排过程中，我们经常需要用到一些内置的变量来进行一些判断或者配置的工作，这里整理一些常用的变量，以便于使用查阅。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ansible优秀案例]]></title>
+        <id>https://blog.zzppjj.top/pages/4fbba1/</id>
+        <link href="https://blog.zzppjj.top/pages/4fbba1/">
+        </link>
+        <updated>2023-01-29T15:16:58.000Z</updated>
+        <summary type="html"><![CDATA[command: /sbin/swapoff -a
+  when:
+    swapon.stdout
+  ignore_errors: yes
+`]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[如何优雅向chatgpt提问ansible相关问题]]></title>
+        <id>https://blog.zzppjj.top/pages/a97e1b/</id>
+        <link href="https://blog.zzppjj.top/pages/a97e1b/">
+        </link>
+        <updated>2023-05-08T09:14:37.000Z</updated>
+        <summary type="html"><![CDATA[使用ansible ，利用openssl 签发IP地址，要求：
+1、有检测openssl 是否安装
+2、环境是centos7
+3、CA机构，邮箱，证书名称 这些通过变量维护
+4、证书有效期10年]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[k8s入门]]></title>
+        <id>https://blog.zzppjj.top/pages/82114b/</id>
+        <link href="https://blog.zzppjj.top/pages/82114b/">
+        </link>
+        <updated>2023-04-24T16:15:34.000Z</updated>
+        <summary type="html"><![CDATA[| 主机名     | 操作系统      | CPU | MEM | 角色要求   |
+| ------- | --------- | --- | --- | ------ |
+| master1 | CentOS7.6 | 2   | 2G  | master |
+| worker1 | CentOS7.6 | 2   | 2G  | worker |
+| worker2 | CentOS7.6 | 2   | 2G  | worker |]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[安装篇-kubeadm]]></title>
+        <id>https://blog.zzppjj.top/pages/268f25/</id>
+        <link href="https://blog.zzppjj.top/pages/268f25/">
+        </link>
+        <updated>2023-04-24T16:15:54.000Z</updated>
+        <summary type="html"><![CDATA[sed -i 's/enforcing/disabled/' /etc/selinux/config  #永久关闭，需要重启
+setenforce 0 #临时关闭
+`]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FastAPI-快速入门1]]></title>
+        <id>https://blog.zzppjj.top/pages/50580b/</id>
+        <link href="https://blog.zzppjj.top/pages/50580b/">
+        </link>
+        <updated>2024-11-27T20:44:16.000Z</updated>
+        <summary type="html"><![CDATA[FastAPI 是一个高性能 Web 框架，用于构建 API。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FastAPI-路由2]]></title>
+        <id>https://blog.zzppjj.top/pages/639a77/</id>
+        <link href="https://blog.zzppjj.top/pages/639a77/">
+        </link>
+        <updated>2024-11-27T21:25:50.000Z</updated>
+        <summary type="html"><![CDATA[路由方法有 GET, POST, PUT, PATCH, DELETE 和 OPTIONS。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FastApi-参数提交3]]></title>
+        <id>https://blog.zzppjj.top/pages/7b93e8/</id>
+        <link href="https://blog.zzppjj.top/pages/7b93e8/">
+        </link>
+        <updated>2024-12-03T09:35:58.000Z</updated>
+        <summary type="html"><![CDATA[一般对于Request Body不会通过get提交，对于get提交的参数一般称为是查询参数。所以，如果是通过POTS,PUT等方式提交的参数信息，我们一般是放到Request Body来提交到我们的后端。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FastApi-中间件]]></title>
+        <id>https://blog.zzppjj.top/pages/712381/</id>
+        <link href="https://blog.zzppjj.top/pages/712381/">
+        </link>
+        <updated>2024-12-04T09:13:24.000Z</updated>
+        <summary type="html"><![CDATA[所谓的中间件，其实和我们bottle中的中间件作用是一致。有些方法或操作需要在所有路由之前执行，比如要加一个http访问的拦截器，可以对部分接口API需要授权才能访问的接口进行验证之类的。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FastApi-响应报文]]></title>
+        <id>https://blog.zzppjj.top/pages/47f4c8/</id>
+        <link href="https://blog.zzppjj.top/pages/47f4c8/">
+        </link>
+        <updated>2024-12-04T08:57:18.000Z</updated>
+        <summary type="html"><![CDATA[请求一个接口返回来我们客户端可见的东西都是所谓的响应报文，如响应头，响应码，响应内容等。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FastApi-错误处理]]></title>
+        <id>https://blog.zzppjj.top/pages/580d5e/</id>
+        <link href="https://blog.zzppjj.top/pages/580d5e/">
+        </link>
+        <updated>2024-12-04T09:06:08.000Z</updated>
+        <summary type="html"><![CDATA[再之前Bottle 中其实有一个就是HttpError异常类，在FastAPI也存在这么一个HTTPException。比如：]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[依赖注入之Depends]]></title>
+        <id>https://blog.zzppjj.top/pages/c2fad5/</id>
+        <link href="https://blog.zzppjj.top/pages/c2fad5/">
+        </link>
+        <updated>2024-12-04T10:19:46.000Z</updated>
+        <summary type="html"><![CDATA[看官网的描述Depends的使用，似乎比较懵懵懂懂的，于是乎还是需要花些时间再次学习一下关于依赖注入。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FastApi-跨域处理]]></title>
+        <id>https://blog.zzppjj.top/pages/bf467b/</id>
+        <link href="https://blog.zzppjj.top/pages/bf467b/">
+        </link>
+        <updated>2024-12-04T09:18:49.000Z</updated>
+        <summary type="html"><![CDATA[为啥需要跨域处理，通常我们的API一般是给到前端去调用，但是前端可能使用域名和没提供的API域名是不一样，这就引发了浏览器同源策略问题，所以我们需要做跨域请求支持。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[rsync用法及参数详解]]></title>
+        <id>https://blog.zzppjj.top/pages/98cac7/</id>
+        <link href="https://blog.zzppjj.top/pages/98cac7/">
+        </link>
+        <updated>2022-12-09T20:51:06.000Z</updated>
+        <summary type="html"><![CDATA[Logrotate入门了解及生产实践]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[rsync服务实现推送，拉取]]></title>
+        <id>https://blog.zzppjj.top/pages/c7f1bc/</id>
+        <link href="https://blog.zzppjj.top/pages/c7f1bc/">
+        </link>
+        <updated>2022-12-09T20:51:06.000Z</updated>
+        <summary type="html"><![CDATA[Logrotate入门了解及生产实践]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[centos7搭建dns,bind配置]]></title>
+        <id>https://blog.zzppjj.top/pages/78c801/</id>
+        <link href="https://blog.zzppjj.top/pages/78c801/">
+        </link>
+        <updated>2022-12-15T19:18:37.000Z</updated>
+        <summary type="html"><![CDATA[Logrotate入门了解及生产实践]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[sed命令在文本每行,行尾或行首添加字符]]></title>
+        <id>https://blog.zzppjj.top/pages/4baba0/</id>
+        <link href="https://blog.zzppjj.top/pages/4baba0/">
+        </link>
+        <updated>2022-12-21T20:56:09.000Z</updated>
+        <summary type="html"><![CDATA[Logrotate入门了解及生产实践]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LVM管理]]></title>
+        <id>https://blog.zzppjj.top/pages/5f261c/</id>
+        <link href="https://blog.zzppjj.top/pages/5f261c/">
+        </link>
+        <updated>2022-12-15T17:38:10.000Z</updated>
+        <summary type="html"><![CDATA[LVM是在磁盘分区和文件系统之间添加的一个逻辑层，来为文件系统屏蔽下层磁盘分区布局，提供一个抽象的盘卷，在盘卷上建立文件系统。管理员利用LVM可以在磁盘不用重新分区的情况下动态调整文件系统的大小，并且利用LVM管理的文件系统可以跨越磁盘，当服务器添加了新的磁盘后，管理员不必将原有的文件移动到新的磁盘上，而是通过LVM可以直接扩展文件系统跨越磁盘]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[sudo权限规划]]></title>
+        <id>https://blog.zzppjj.top/pages/0bac05/</id>
+        <link href="https://blog.zzppjj.top/pages/0bac05/">
+        </link>
+        <updated>2022-12-15T18:49:07.000Z</updated>
+        <summary type="html"><![CDATA[sudo权限规划]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[linux修改网卡为eth0的两种方法]]></title>
+        <id>https://blog.zzppjj.top/pages/c17655/</id>
+        <link href="https://blog.zzppjj.top/pages/c17655/">
+        </link>
+        <updated>2022-12-21T14:34:00.000Z</updated>
+        <summary type="html"><![CDATA[sudo权限规划]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Logrotate入门了解及生产实践]]></title>
+        <id>https://blog.zzppjj.top/pages/a8c469/</id>
+        <link href="https://blog.zzppjj.top/pages/a8c469/">
+        </link>
+        <updated>2023-01-11T15:19:54.000Z</updated>
+        <summary type="html"><![CDATA[Logrotate入门了解及生产实践]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CentOS7安装Android SDK]]></title>
+        <id>https://blog.zzppjj.top/pages/8adc3b/</id>
+        <link href="https://blog.zzppjj.top/pages/8adc3b/">
+        </link>
+        <updated>2023-04-01T15:54:41.000Z</updated>
+        <summary type="html"><![CDATA[CentOS7安装Android SDK]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[linux 阿里云盘挂载错误]]></title>
+        <id>https://blog.zzppjj.top/pages/3df59e/</id>
+        <link href="https://blog.zzppjj.top/pages/3df59e/">
+        </link>
+        <updated>2023-04-01T15:38:14.000Z</updated>
+        <summary type="html"><![CDATA[系统启动到request_module: runaway loop modprobe binfmt-464c挂起]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[centos7安装更新git]]></title>
+        <id>https://blog.zzppjj.top/pages/5bc955/</id>
+        <link href="https://blog.zzppjj.top/pages/5bc955/">
+        </link>
+        <updated>2023-04-03T22:20:09.000Z</updated>
+        <summary type="html"><![CDATA[CentOS7上的Git版本太陈旧，在使用过程中会遇到问题，因此需要升级git版本。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[linux启动顺序]]></title>
+        <id>https://blog.zzppjj.top/pages/db4842/</id>
+        <link href="https://blog.zzppjj.top/pages/db4842/">
+        </link>
+        <updated>2023-04-09T22:18:16.000Z</updated>
+        <summary type="html"><![CDATA[LINUX 开机过程指的是从打开计算机电源直到LINUX显示用户登录画面的全过程。分析LINUX开机过程也是深入了解LINUX核心工作原理的一个很好的途径。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[expect工具的安装和使用方法]]></title>
+        <id>https://blog.zzppjj.top/pages/b7531e/</id>
+        <link href="https://blog.zzppjj.top/pages/b7531e/">
+        </link>
+        <updated>2023-04-15T16:55:17.000Z</updated>
+        <summary type="html"><![CDATA[expect工具的安装和使用方法实践]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[linux中用dd命令来测试硬盘读写速度]]></title>
+        <id>https://blog.zzppjj.top/pages/50263a/</id>
+        <link href="https://blog.zzppjj.top/pages/50263a/">
+        </link>
+        <updated>2023-03-16T15:05:39.000Z</updated>
+        <summary type="html"><![CDATA[linux中用dd命令来测试硬盘读写速度]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[centos7升级openssl]]></title>
+        <id>https://blog.zzppjj.top/pages/20d8b3/</id>
+        <link href="https://blog.zzppjj.top/pages/20d8b3/">
+        </link>
+        <updated>2023-04-13T17:16:36.000Z</updated>
+        <summary type="html"><![CDATA[centos7升级openssl实践]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[centos7安装java环境的两种方式]]></title>
+        <id>https://blog.zzppjj.top/pages/479644/</id>
+        <link href="https://blog.zzppjj.top/pages/479644/">
+        </link>
+        <updated>2023-06-11T13:42:40.000Z</updated>
+        <summary type="html"><![CDATA[$ yum install java-1.8.0-openjdk* -y
+`]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[rsyslog日志系统：rsyslog配置文件]]></title>
+        <id>https://blog.zzppjj.top/pages/785e09/</id>
+        <link href="https://blog.zzppjj.top/pages/785e09/">
+        </link>
+        <updated>2024-05-26T16:06:04.000Z</updated>
+        <summary type="html"><![CDATA[modules，模块，配置加载的模块，如：ModLoad imudp.so配置加载UDP传输模块]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[linux-centos7系统设置时区及同步时间]]></title>
+        <id>https://blog.zzppjj.top/pages/010603/</id>
+        <link href="https://blog.zzppjj.top/pages/010603/">
+        </link>
+        <updated>2023-06-27T17:35:41.000Z</updated>
+        <summary type="html"><![CDATA[首先，在centos7 系统可以使用命令：【timedatectl】查看系统的时区；使用timedatectl显示的结果如下：]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[rsyslog的安装、使用、详解]]></title>
+        <id>https://blog.zzppjj.top/pages/fe7ca7/</id>
+        <link href="https://blog.zzppjj.top/pages/fe7ca7/">
+        </link>
+        <updated>2024-05-29T22:23:42.000Z</updated>
+        <summary type="html"><![CDATA[rsyslog是比syslog功能更强大的日志记录系统，可以将日志输出到文件，数据库和其它程序。Centos 7.x默认的rsyslog版本是8.x。
+>     rsyslog 是一个快速处理收集系统日志的程序，提供了高性能、安全功能和模块化设计。rsyslog 是syslog 的升级版，它将多种来源输入输出转换结果到目的地，并可定制和过滤、筛选。据官网介绍，现在可以处理100万条信息。
+> 特性：
+>        1、可以直接将日志写入到数据库。
+>        2、日志队列（内存队列和磁盘队列）。
+>        3、灵活的模板机制，可以得到多种输出格式。
+>        4、插件式结构，多种多样的输入、输出模块。
+>        5、可以把日志存放在Mysql ，PostgreSQL，Oracle等数据库中]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[linux如何获取打开文件和文件描述符数量]]></title>
+        <id>https://blog.zzppjj.top/pages/0134e3/</id>
+        <link href="https://blog.zzppjj.top/pages/0134e3/">
+        </link>
+        <updated>2024-07-08T16:21:22.000Z</updated>
+        <summary type="html"><![CDATA[文件描述符（FD:file descriptors），也可以说是文件句柄，当某个程序打开文件时，内核返回相应的文件描述符，程序为了处理该文件必须引用此描述符。文件描述符是一个正整数，用以标明每一个被进程所打开的文件和 socket。最前面的三个文件描述符（0，1，2）分别与标准输入（stdin），标准输出（stdout）和标准错误（stderr）对应，后面打开的文件依此类推对应 3、4…… 。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[linux下使用v2ray]]></title>
+        <id>https://blog.zzppjj.top/pages/8ea68f/</id>
+        <link href="https://blog.zzppjj.top/pages/8ea68f/">
+        </link>
+        <updated>2023-05-31T20:40:51.000Z</updated>
+        <summary type="html"><![CDATA[v2ray是一个强大的代理工具，但苦于Linux下一直没有一个好用的客户端，便萌生了直接使用裸v2ray的念头．v2ray本身是不区分服务端和客户端的，只要配置好相关文件，即可正常使用．]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LVS集群-DR模式]]></title>
+        <id>https://blog.zzppjj.top/pages/d6d918/</id>
+        <link href="https://blog.zzppjj.top/pages/d6d918/">
+        </link>
+        <updated>2024-07-19T09:16:13.000Z</updated>
+        <summary type="html"><![CDATA[director分配请求到不同的real server。real server处理请求后直接回应给用户，这样director负载均衡器仅处理客户机与服务器的一半连接。负载均衡器仅处理一半的连接，避免了新的性能瓶颈，同样增加了系统的可伸缩性。Direct Routing由于采用物理层（修改MAC地址）技术，因此所有服务器都必须在一个网段中。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[linux服务器安装ffmpeg]]></title>
+        <id>https://blog.zzppjj.top/pages/3a6d2c/</id>
+        <link href="https://blog.zzppjj.top/pages/3a6d2c/">
+        </link>
+        <updated>2024-08-14T20:31:45.000Z</updated>
+        <summary type="html"><![CDATA[下载地址：https://ffmpeg.org/]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[safe-rm防止删除重要的文件]]></title>
+        <id>https://blog.zzppjj.top/pages/d47a14/</id>
+        <link href="https://blog.zzppjj.top/pages/d47a14/">
+        </link>
+        <updated>2024-07-02T10:05:13.000Z</updated>
+        <summary type="html"><![CDATA[很多时候，服务器管理不是一个人在管理，不知道你是否也曾遇到过被同事或者好友执行sudo rm -rf /那种痛苦的感觉无言以对，其实这都是可以避免的，有 软件可以为我们解决这种问题，我们只需要把禁止删除的文件或者目录即可，下面介绍一下这个 软件]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[linux服务器安装samba]]></title>
+        <id>https://blog.zzppjj.top/pages/773a3d/</id>
+        <link href="https://blog.zzppjj.top/pages/773a3d/">
+        </link>
+        <updated>2024-09-09T08:42:46.000Z</updated>
+        <summary type="html"><![CDATA[yum install samba -y
+`]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[使用openssl创建自签发证书]]></title>
+        <id>https://blog.zzppjj.top/pages/f7d9ee/</id>
+        <link href="https://blog.zzppjj.top/pages/f7d9ee/">
+        </link>
+        <updated>2024-10-22T16:08:52.000Z</updated>
+        <summary type="html"><![CDATA[openssl genrsa -out ca.key 4096
+`]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[windows应用服务部署脚本]]></title>
+        <id>https://blog.zzppjj.top/pages/adbe78/</id>
+        <link href="https://blog.zzppjj.top/pages/adbe78/">
+        </link>
+        <updated>2023-02-28T22:13:50.000Z</updated>
+        <summary type="html"><![CDATA[windows应用服务部署脚本]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[windows支持多用户远程登录]]></title>
+        <id>https://blog.zzppjj.top/pages/18b06c/</id>
+        <link href="https://blog.zzppjj.top/pages/18b06c/">
+        </link>
+        <updated>2022-12-15T18:56:36.000Z</updated>
+        <summary type="html"><![CDATA[windows支持多用户远程登录]]></summary>
+    </entry>
+</feed>

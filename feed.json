@@ -1,0 +1,363 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "蛮子哥",
+    "home_page_url": "https://blog.zzppjj.top",
+    "feed_url": "https://blog.zzppjj.top/feed.json",
+    "description": "业精于勤，荒于嬉",
+    "items": [
+        {
+            "id": "https://blog.zzppjj.top/pages/12c5da01/",
+            "url": "https://blog.zzppjj.top/pages/12c5da01/",
+            "title": "ansible入门",
+            "summary": "原文链接：https://www.cnblogs.com/lvzhenjiang/p/14199445.html",
+            "image": "https://pdf.chatquanttail.top/2023/04/556c50248b5a7784.jpg",
+            "date_modified": "2022-07-22T16:22:11.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/f8f66c/",
+            "url": "https://blog.zzppjj.top/pages/f8f66c/",
+            "title": "anisble批量安装node_exporter",
+            "summary": "原文链接：https://www.cnblogs.com/lvzhenjiang/p/14374243.html",
+            "date_modified": "2022-12-09T20:53:14.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/d740bc/",
+            "url": "https://blog.zzppjj.top/pages/d740bc/",
+            "title": "ansible-playbook中的变量",
+            "summary": "原文链接：https://www.cnblogs.com/lvzhenjiang/p/14385777.html",
+            "date_modified": "2022-12-09T20:53:14.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/847542/",
+            "url": "https://blog.zzppjj.top/pages/847542/",
+            "title": "ansible之roles简单使用",
+            "summary": "目录",
+            "image": "https://gitee.com/lvzhenjiang/document/raw/master/%E5%B0%8F%E4%B9%A6%E5%8C%A0/20200322142808.png",
+            "date_modified": "2022-12-09T20:53:07.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/a06506/",
+            "url": "https://blog.zzppjj.top/pages/a06506/",
+            "title": "Ansible性能优化——提升ansible执行效率",
+            "summary": "原文链接：Ansible性能优化——提升ansible执行效率 - 吕振江 - 博客园",
+            "date_modified": "2022-12-09T20:53:07.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/4189b8/",
+            "url": "https://blog.zzppjj.top/pages/4189b8/",
+            "title": "ansible中template简单使用",
+            "summary": "目录",
+            "date_modified": "2022-12-09T20:53:07.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/14eda9/",
+            "url": "https://blog.zzppjj.top/pages/14eda9/",
+            "title": "playbook详解",
+            "summary": "目录",
+            "date_modified": "2022-12-09T20:53:07.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/7eca6b/",
+            "url": "https://blog.zzppjj.top/pages/7eca6b/",
+            "title": "ansible-playbook编排使用tips",
+            "summary": "在日常配置编排过程中，我们经常需要用到一些内置的变量来进行一些判断或者配置的工作，这里整理一些常用的变量，以便于使用查阅。",
+            "date_modified": "2023-01-11T15:06:48.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/4fbba1/",
+            "url": "https://blog.zzppjj.top/pages/4fbba1/",
+            "title": "ansible优秀案例",
+            "summary": "command: /sbin/swapoff -a\n  when:\n    swapon.stdout\n  ignore_errors: yes\n`",
+            "date_modified": "2023-01-29T15:16:58.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/a97e1b/",
+            "url": "https://blog.zzppjj.top/pages/a97e1b/",
+            "title": "如何优雅向chatgpt提问ansible相关问题",
+            "summary": "使用ansible ，利用openssl 签发IP地址，要求：\n1、有检测openssl 是否安装\n2、环境是centos7\n3、CA机构，邮箱，证书名称 这些通过变量维护\n4、证书有效期10年",
+            "date_modified": "2023-05-08T09:14:37.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/82114b/",
+            "url": "https://blog.zzppjj.top/pages/82114b/",
+            "title": "k8s入门",
+            "summary": "| 主机名     | 操作系统      | CPU | MEM | 角色要求   |\n| ------- | --------- | --- | --- | ------ |\n| master1 | CentOS7.6 | 2   | 2G  | master |\n| worker1 | CentOS7.6 | 2   | 2G  | worker |\n| worker2 | CentOS7.6 | 2   | 2G  | worker |",
+            "image": "https://pdf.chatquanttail.top/2023/04/75c50b92ada7151a.png",
+            "date_modified": "2023-04-24T16:15:34.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/268f25/",
+            "url": "https://blog.zzppjj.top/pages/268f25/",
+            "title": "安装篇-kubeadm",
+            "summary": "sed -i 's/enforcing/disabled/' /etc/selinux/config  #永久关闭，需要重启\nsetenforce 0 #临时关闭\n`",
+            "date_modified": "2023-04-24T16:15:54.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/50580b/",
+            "url": "https://blog.zzppjj.top/pages/50580b/",
+            "title": "FastAPI-快速入门1",
+            "summary": "FastAPI 是一个高性能 Web 框架，用于构建 API。",
+            "date_modified": "2024-11-27T20:44:16.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/639a77/",
+            "url": "https://blog.zzppjj.top/pages/639a77/",
+            "title": "FastAPI-路由2",
+            "summary": "路由方法有 GET, POST, PUT, PATCH, DELETE 和 OPTIONS。",
+            "image": "https://pdf.chatquanttail.top/2024/11/726091c3b771485c.png",
+            "date_modified": "2024-11-27T21:25:50.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/7b93e8/",
+            "url": "https://blog.zzppjj.top/pages/7b93e8/",
+            "title": "FastApi-参数提交3",
+            "summary": "一般对于Request Body不会通过get提交，对于get提交的参数一般称为是查询参数。所以，如果是通过POTS,PUT等方式提交的参数信息，我们一般是放到Request Body来提交到我们的后端。",
+            "image": "https://pdf.chatquanttail.top/2024/12/9f2ed52ada6a65b8.png",
+            "date_modified": "2024-12-03T09:35:58.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/712381/",
+            "url": "https://blog.zzppjj.top/pages/712381/",
+            "title": "FastApi-中间件",
+            "summary": "所谓的中间件，其实和我们bottle中的中间件作用是一致。有些方法或操作需要在所有路由之前执行，比如要加一个http访问的拦截器，可以对部分接口API需要授权才能访问的接口进行验证之类的。",
+            "image": "https://pdf.chatquanttail.top/2024/12/2967add0668cf977.png",
+            "date_modified": "2024-12-04T09:13:24.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/47f4c8/",
+            "url": "https://blog.zzppjj.top/pages/47f4c8/",
+            "title": "FastApi-响应报文",
+            "summary": "请求一个接口返回来我们客户端可见的东西都是所谓的响应报文，如响应头，响应码，响应内容等。",
+            "image": "https://pdf.chatquanttail.top/2024/12/3d9534de656ffd0b.png",
+            "date_modified": "2024-12-04T08:57:18.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/580d5e/",
+            "url": "https://blog.zzppjj.top/pages/580d5e/",
+            "title": "FastApi-错误处理",
+            "summary": "再之前Bottle 中其实有一个就是HttpError异常类，在FastAPI也存在这么一个HTTPException。比如：",
+            "image": "https://pdf.chatquanttail.top/2024/12/ba87fc33037e54ba.png",
+            "date_modified": "2024-12-04T09:06:08.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/c2fad5/",
+            "url": "https://blog.zzppjj.top/pages/c2fad5/",
+            "title": "依赖注入之Depends",
+            "summary": "看官网的描述Depends的使用，似乎比较懵懵懂懂的，于是乎还是需要花些时间再次学习一下关于依赖注入。",
+            "image": "https://pdf.chatquanttail.top/2024/12/e1e9889b6a05ddca.png",
+            "date_modified": "2024-12-04T10:19:46.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/bf467b/",
+            "url": "https://blog.zzppjj.top/pages/bf467b/",
+            "title": "FastApi-跨域处理",
+            "summary": "为啥需要跨域处理，通常我们的API一般是给到前端去调用，但是前端可能使用域名和没提供的API域名是不一样，这就引发了浏览器同源策略问题，所以我们需要做跨域请求支持。",
+            "image": "https://pdf.chatquanttail.top/2024/12/c43922049fe46f66.png",
+            "date_modified": "2024-12-04T09:18:49.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/98cac7/",
+            "url": "https://blog.zzppjj.top/pages/98cac7/",
+            "title": "rsync用法及参数详解",
+            "summary": "Logrotate入门了解及生产实践",
+            "date_modified": "2022-12-09T20:51:06.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/c7f1bc/",
+            "url": "https://blog.zzppjj.top/pages/c7f1bc/",
+            "title": "rsync服务实现推送，拉取",
+            "summary": "Logrotate入门了解及生产实践",
+            "date_modified": "2022-12-09T20:51:06.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/78c801/",
+            "url": "https://blog.zzppjj.top/pages/78c801/",
+            "title": "centos7搭建dns,bind配置",
+            "summary": "Logrotate入门了解及生产实践",
+            "image": "https://pdf.chatquanttail.top/2023/01/c61083c823f2ed94.png",
+            "date_modified": "2022-12-15T19:18:37.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/4baba0/",
+            "url": "https://blog.zzppjj.top/pages/4baba0/",
+            "title": "sed命令在文本每行,行尾或行首添加字符",
+            "summary": "Logrotate入门了解及生产实践",
+            "image": "https://imgconvert.csdnimg.cn/aHR0cHM6Ly9waWMwMDIuY25ibG9ncy5jb20vaW1hZ2VzLzIwMTEvMzIyODMzLzIwMTEwODE5MDk0NDQwMTMucG5n?x-oss-process=image/format,png",
+            "date_modified": "2022-12-21T20:56:09.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/5f261c/",
+            "url": "https://blog.zzppjj.top/pages/5f261c/",
+            "title": "LVM管理",
+            "summary": "LVM是在磁盘分区和文件系统之间添加的一个逻辑层，来为文件系统屏蔽下层磁盘分区布局，提供一个抽象的盘卷，在盘卷上建立文件系统。管理员利用LVM可以在磁盘不用重新分区的情况下动态调整文件系统的大小，并且利用LVM管理的文件系统可以跨越磁盘，当服务器添加了新的磁盘后，管理员不必将原有的文件移动到新的磁盘上，而是通过LVM可以直接扩展文件系统跨越磁盘",
+            "image": "https://pdf.chatquanttail.top/2023/01/5a41ef21aac7ec6c.jpg",
+            "date_modified": "2022-12-15T17:38:10.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/0bac05/",
+            "url": "https://blog.zzppjj.top/pages/0bac05/",
+            "title": "sudo权限规划",
+            "summary": "sudo权限规划",
+            "date_modified": "2022-12-15T18:49:07.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/c17655/",
+            "url": "https://blog.zzppjj.top/pages/c17655/",
+            "title": "linux修改网卡为eth0的两种方法",
+            "summary": "sudo权限规划",
+            "image": "https://img-blog.csdnimg.cn/20210719151032530.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MjUxNjkyMg==,size_16,color_FFFFFF,t_70",
+            "date_modified": "2022-12-21T14:34:00.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/a8c469/",
+            "url": "https://blog.zzppjj.top/pages/a8c469/",
+            "title": "Logrotate入门了解及生产实践",
+            "summary": "Logrotate入门了解及生产实践",
+            "date_modified": "2023-01-11T15:19:54.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/8adc3b/",
+            "url": "https://blog.zzppjj.top/pages/8adc3b/",
+            "title": "CentOS7安装Android SDK",
+            "summary": "CentOS7安装Android SDK",
+            "image": "https://pdf.chatquanttail.top/2023/04/70ecfad06095a13a.png",
+            "date_modified": "2023-04-01T15:54:41.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/3df59e/",
+            "url": "https://blog.zzppjj.top/pages/3df59e/",
+            "title": "linux 阿里云盘挂载错误",
+            "summary": "系统启动到request_module: runaway loop modprobe binfmt-464c挂起",
+            "date_modified": "2023-04-01T15:38:14.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/5bc955/",
+            "url": "https://blog.zzppjj.top/pages/5bc955/",
+            "title": "centos7安装更新git",
+            "summary": "CentOS7上的Git版本太陈旧，在使用过程中会遇到问题，因此需要升级git版本。",
+            "date_modified": "2023-04-03T22:20:09.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/db4842/",
+            "url": "https://blog.zzppjj.top/pages/db4842/",
+            "title": "linux启动顺序",
+            "summary": "LINUX 开机过程指的是从打开计算机电源直到LINUX显示用户登录画面的全过程。分析LINUX开机过程也是深入了解LINUX核心工作原理的一个很好的途径。",
+            "date_modified": "2023-04-09T22:18:16.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/b7531e/",
+            "url": "https://blog.zzppjj.top/pages/b7531e/",
+            "title": "expect工具的安装和使用方法",
+            "summary": "expect工具的安装和使用方法实践",
+            "date_modified": "2023-04-15T16:55:17.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/50263a/",
+            "url": "https://blog.zzppjj.top/pages/50263a/",
+            "title": "linux中用dd命令来测试硬盘读写速度",
+            "summary": "linux中用dd命令来测试硬盘读写速度",
+            "date_modified": "2023-03-16T15:05:39.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/20d8b3/",
+            "url": "https://blog.zzppjj.top/pages/20d8b3/",
+            "title": "centos7升级openssl",
+            "summary": "centos7升级openssl实践",
+            "date_modified": "2023-04-13T17:16:36.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/479644/",
+            "url": "https://blog.zzppjj.top/pages/479644/",
+            "title": "centos7安装java环境的两种方式",
+            "summary": "$ yum install java-1.8.0-openjdk* -y\n`",
+            "date_modified": "2023-06-11T13:42:40.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/785e09/",
+            "url": "https://blog.zzppjj.top/pages/785e09/",
+            "title": "rsyslog日志系统：rsyslog配置文件",
+            "summary": "modules，模块，配置加载的模块，如：ModLoad imudp.so配置加载UDP传输模块",
+            "date_modified": "2024-05-26T16:06:04.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/010603/",
+            "url": "https://blog.zzppjj.top/pages/010603/",
+            "title": "linux-centos7系统设置时区及同步时间",
+            "summary": "首先，在centos7 系统可以使用命令：【timedatectl】查看系统的时区；使用timedatectl显示的结果如下：",
+            "date_modified": "2023-06-27T17:35:41.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/fe7ca7/",
+            "url": "https://blog.zzppjj.top/pages/fe7ca7/",
+            "title": "rsyslog的安装、使用、详解",
+            "summary": "rsyslog是比syslog功能更强大的日志记录系统，可以将日志输出到文件，数据库和其它程序。Centos 7.x默认的rsyslog版本是8.x。\n>     rsyslog 是一个快速处理收集系统日志的程序，提供了高性能、安全功能和模块化设计。rsyslog 是syslog 的升级版，它将多种来源输入输出转换结果到目的地，并可定制和过滤、筛选。据官网介绍，现在可以处理100万条信息。\n> 特性：\n>        1、可以直接将日志写入到数据库。\n>        2、日志队列（内存队列和磁盘队列）。\n>        3、灵活的模板机制，可以得到多种输出格式。\n>        4、插件式结构，多种多样的输入、输出模块。\n>        5、可以把日志存放在Mysql ，PostgreSQL，Oracle等数据库中",
+            "date_modified": "2024-05-29T22:23:42.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/0134e3/",
+            "url": "https://blog.zzppjj.top/pages/0134e3/",
+            "title": "linux如何获取打开文件和文件描述符数量",
+            "summary": "文件描述符（FD:file descriptors），也可以说是文件句柄，当某个程序打开文件时，内核返回相应的文件描述符，程序为了处理该文件必须引用此描述符。文件描述符是一个正整数，用以标明每一个被进程所打开的文件和 socket。最前面的三个文件描述符（0，1，2）分别与标准输入（stdin），标准输出（stdout）和标准错误（stderr）对应，后面打开的文件依此类推对应 3、4…… 。",
+            "date_modified": "2024-07-08T16:21:22.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/8ea68f/",
+            "url": "https://blog.zzppjj.top/pages/8ea68f/",
+            "title": "linux下使用v2ray",
+            "summary": "v2ray是一个强大的代理工具，但苦于Linux下一直没有一个好用的客户端，便萌生了直接使用裸v2ray的念头．v2ray本身是不区分服务端和客户端的，只要配置好相关文件，即可正常使用．",
+            "date_modified": "2023-05-31T20:40:51.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/d6d918/",
+            "url": "https://blog.zzppjj.top/pages/d6d918/",
+            "title": "LVS集群-DR模式",
+            "summary": "director分配请求到不同的real server。real server处理请求后直接回应给用户，这样director负载均衡器仅处理客户机与服务器的一半连接。负载均衡器仅处理一半的连接，避免了新的性能瓶颈，同样增加了系统的可伸缩性。Direct Routing由于采用物理层（修改MAC地址）技术，因此所有服务器都必须在一个网段中。",
+            "image": "https://pdf.chatquanttail.top/2024/07/aed8e7cd1a267958.jpg",
+            "date_modified": "2024-07-19T09:16:13.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/3a6d2c/",
+            "url": "https://blog.zzppjj.top/pages/3a6d2c/",
+            "title": "linux服务器安装ffmpeg",
+            "summary": "下载地址：https://ffmpeg.org/",
+            "image": "https://pdf.chatquanttail.top/2024/08/418c7c85234b831f.png",
+            "date_modified": "2024-08-14T20:31:45.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/d47a14/",
+            "url": "https://blog.zzppjj.top/pages/d47a14/",
+            "title": "safe-rm防止删除重要的文件",
+            "summary": "很多时候，服务器管理不是一个人在管理，不知道你是否也曾遇到过被同事或者好友执行sudo rm -rf /那种痛苦的感觉无言以对，其实这都是可以避免的，有 软件可以为我们解决这种问题，我们只需要把禁止删除的文件或者目录即可，下面介绍一下这个 软件",
+            "date_modified": "2024-07-02T10:05:13.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/773a3d/",
+            "url": "https://blog.zzppjj.top/pages/773a3d/",
+            "title": "linux服务器安装samba",
+            "summary": "yum install samba -y\n`",
+            "date_modified": "2024-09-09T08:42:46.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/f7d9ee/",
+            "url": "https://blog.zzppjj.top/pages/f7d9ee/",
+            "title": "使用openssl创建自签发证书",
+            "summary": "openssl genrsa -out ca.key 4096\n`",
+            "date_modified": "2024-10-22T16:08:52.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/adbe78/",
+            "url": "https://blog.zzppjj.top/pages/adbe78/",
+            "title": "windows应用服务部署脚本",
+            "summary": "windows应用服务部署脚本",
+            "image": "https://pdf.chatquanttail.top/2023/02/46cae67941eaa158.jpg",
+            "date_modified": "2023-02-28T22:13:50.000Z"
+        },
+        {
+            "id": "https://blog.zzppjj.top/pages/18b06c/",
+            "url": "https://blog.zzppjj.top/pages/18b06c/",
+            "title": "windows支持多用户远程登录",
+            "summary": "windows支持多用户远程登录",
+            "date_modified": "2022-12-15T18:56:36.000Z"
+        }
+    ]
+}
